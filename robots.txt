@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://function-media-intelligence.netlify.app/sitemap.xml
