@@ -9,11 +9,21 @@ Function Media LLC is a systems-engineering company developing evidence-centered
 
 ## Platform portfolio
 
-- [**VERISCOPE™**](https://veriscope-intelligence.netlify.app/) — regulatory, operational, and mission-oriented intelligence infrastructure.
+- [**VERISCOPE™ by Function Media LLC**](https://veriscope-intelligence.netlify.app/) — regulatory, operational, and mission-oriented intelligence infrastructure.
 - [**SAFEPLATE™**](https://safeplate-intelligence.netlify.app/) — food-safety intelligence infrastructure.
 - [**NORTHLINE™**](https://northline-intelligence.netlify.app/) — K–12 district-operations intelligence.
 
 Each platform addresses a distinct mission environment while sharing Function Media's disciplined approach to multi-source information, provenance, responsible analysis, authorized access, human review, and accountable decision support.
+
+## VERISCOPE™ research
+
+### The Decision Layer Most Institutions Are Missing
+
+More information does not automatically create better judgment. This Function Media research note examines the gap between information availability and accountable interpretation, with emphasis on evidence, uncertainty, and human review.
+
+[Read **The Decision Layer Most Institutions Are Missing**](https://veriscope-intelligence.netlify.app/knowledge-center/the-decision-layer-most-institutions-are-missing/)
+
+[Visit the **VERISCOPE™ Knowledge Center**](https://veriscope-intelligence.netlify.app/knowledge-center/)
 
 ## Engineering note: Provenance Is System Behavior
 
@@ -33,4 +43,4 @@ Function Media publishes analysis on operational intelligence, evidence, applied
 
 Function Media platforms are under active development. Public materials describe design direction and research; they do not represent government approval, certification, deployment, or commercial adoption unless expressly stated.
 
-© 2026 Function Media LLC. All rights reserved. VERISCOPE™, SAFEPLATE™, and NORTHLINE™ are trademarks of Function Media LLC.
+© 2026 Function Media LLC. All rights reserved.
