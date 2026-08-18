@@ -21,6 +21,14 @@ Reliable provenance is not a label added after analysis. It is a system behavior
 
 [Read the complete article: **Provenance Is System Behavior**](https://function-media-intelligence.netlify.app/insights/provenance-is-system-behavior/)
 
+## Function Media publication
+
+Function Media publishes analysis on operational intelligence, evidence, applied AI, and the information challenges facing complex organizations.
+
+[Read **Operational Intelligence Is Becoming Infrastructure**](https://function-media.hashnode.dev/operational-intelligence-is-becoming-infrastructure)
+
+[Visit the **Function Media publication on Hashnode**](https://function-media.hashnode.dev/)
+
 ## Project status
 
 Function Media platforms are under active development. Public materials describe design direction and research; they do not represent government approval, certification, deployment, or commercial adoption unless expressly stated.
