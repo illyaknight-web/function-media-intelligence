@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 700" role="img" aria-labelledby="t d">
+  <title id="t">Anatomy of a reliable handoff</title><desc id="d">A documented envelope carries five context layers across an institutional boundary.</desc>
+  <rect width="1280" height="700" fill="#f9f7f1"/><path d="M640 68v564" stroke="#9b302b" stroke-width="2" stroke-dasharray="7 9"/>
+  <text x="64" y="70" font-family="ui-monospace,monospace" font-size="18" letter-spacing="3" fill="#5e6770">SENDING ENVIRONMENT</text><text x="1216" y="70" text-anchor="end" font-family="ui-monospace,monospace" font-size="18" letter-spacing="3" fill="#5e6770">RECEIVING ENVIRONMENT</text>
+  <path d="M130 350H520" stroke="#122235" stroke-width="2"/><path d="M760 350h390" stroke="#122235" stroke-width="2"/>
+  <rect x="415" y="190" width="450" height="320" rx="3" fill="#f2efe7" stroke="#122235" stroke-width="3"/><path d="M415 190l225 190 225-190" fill="none" stroke="#122235" stroke-width="3"/>
+  <g font-family="ui-monospace,monospace" font-size="16" letter-spacing="2"><rect x="455" y="105" width="120" height="48" fill="#2d5f88"/><text x="515" y="135" text-anchor="middle" fill="white">IDENTITY</text><rect x="588" y="105" width="104" height="48" fill="#9b302b"/><text x="640" y="135" text-anchor="middle" fill="white">STATE</text><rect x="705" y="105" width="120" height="48" fill="#3f6f57"/><text x="765" y="135" text-anchor="middle" fill="white">EVIDENCE</text><rect x="478" y="544" width="142" height="48" fill="#b17828"/><text x="549" y="574" text-anchor="middle" fill="white">AUTHORITY</text><rect x="633" y="544" width="168" height="48" fill="#122235"/><text x="717" y="574" text-anchor="middle" fill="white">OWNERSHIP</text></g>
+  <circle cx="130" cy="350" r="9" fill="#122235"/><circle cx="1150" cy="350" r="9" fill="#122235"/><path d="M1140 338l16 12-16 12" fill="none" stroke="#122235" stroke-width="2"/>
+</svg>
