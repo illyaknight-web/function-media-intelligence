@@ -1,0 +1,23 @@
+:root{--paper:#f2efe7;--ink:#18211f;--muted:#52605c;--line:#a8afa9;--blue:#4f6d7a;--green:#4d7c5e;--amber:#9b6a29;--red:#8e3d32}
+*{box-sizing:border-box}
+html{background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+body{margin:0}
+body:before{content:"FUNCTION MEDIA LLC  /  SAFEPLATE™ FIELD NOTE";display:block;padding:26px max(6vw,28px);border-bottom:1px solid var(--line);font-size:13px;font-weight:700;letter-spacing:.18em;color:var(--green)}
+main{max-width:1220px;margin:auto;padding:80px max(6vw,28px) 110px}
+h1{max-width:920px;margin:0 0 26px;font-family:Georgia,serif;font-size:clamp(58px,9vw,132px);font-weight:400;line-height:.9;letter-spacing:-.055em}
+h1+ h2{max-width:800px;margin:0 0 54px;color:var(--muted);font:400 clamp(22px,3vw,34px)/1.35 Georgia,serif}
+h2{max-width:760px;margin:86px 0 30px;font:400 clamp(38px,5vw,70px)/1 Georgia,serif;letter-spacing:-.035em}
+h3{margin:55px 0 10px;font-size:16px;letter-spacing:.16em;text-transform:uppercase;color:var(--green)}
+p,li{font-size:20px;line-height:1.72}
+p{max-width:780px}
+ul{max-width:780px;padding-left:24px}
+img{display:block;width:100%;height:auto;margin:64px 0;border:0}
+p:has(img){max-width:none;margin:0}
+hr{border:0;border-top:1px solid var(--line);margin:90px 0 50px}
+strong{color:var(--ink)}
+a{color:var(--green);text-decoration-thickness:1px;text-underline-offset:4px}
+body>main>p:first-of-type{font:400 28px/1.55 Georgia,serif;max-width:720px}
+body>main>h2:nth-of-type(n+2){border-top:1px solid var(--line);padding-top:36px}
+body:after{content:"© 2026 Function Media LLC. All rights reserved. SAFEPLATE™ is a trademark of Function Media LLC.";display:block;padding:34px max(6vw,28px);background:var(--ink);color:var(--paper);font-size:13px;letter-spacing:.08em}
+@media(min-width:980px){main>h3,main>h3+p,main>h3+p+p{margin-left:210px}main>ul{margin-left:210px}}
+@media(max-width:640px){main{padding-top:52px}p,li{font-size:18px}img{margin:42px 0}}
