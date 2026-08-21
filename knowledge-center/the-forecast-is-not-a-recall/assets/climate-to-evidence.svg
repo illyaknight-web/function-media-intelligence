@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <rect width="1400" height="820" fill="#f2efe7"/>
+  <path d="M90 120H1310M90 700H1310" stroke="#2f3837" stroke-width="2"/>
+  <text x="90" y="82" font-family="Arial, sans-serif" font-size="24" letter-spacing="5" fill="#2f3837">FIELD NOTE 02 / EVIDENCE BOUNDARY</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(110 190)">
+      <text font-size="18" letter-spacing="3" fill="#4f6d7a">01 / CONTEXT</text>
+      <text y="58" font-size="36" font-weight="700" fill="#18211f">ENVIRONMENT</text>
+      <text y="105" font-size="24" fill="#45504d">forecast · heat · flood · water</text>
+      <path d="M0 150H270" stroke="#4f6d7a" stroke-width="7"/>
+    </g>
+    <g transform="translate(430 190)">
+      <text font-size="18" letter-spacing="3" fill="#9b6a29">02 / CONDITION</text>
+      <text y="58" font-size="36" font-weight="700" fill="#18211f">OPERATION</text>
+      <text y="105" font-size="24" fill="#45504d">delay · outage · exception</text>
+      <path d="M0 150H270" stroke="#9b6a29" stroke-width="7"/>
+    </g>
+    <g transform="translate(750 190)">
+      <text font-size="18" letter-spacing="3" fill="#4d7c5e">03 / EVIDENCE</text>
+      <text y="58" font-size="36" font-weight="700" fill="#18211f">PRODUCT</text>
+      <text y="105" font-size="24" fill="#45504d">lot · custody · test · source</text>
+      <path d="M0 150H270" stroke="#4d7c5e" stroke-width="7"/>
+    </g>
+    <g transform="translate(1070 190)">
+      <text font-size="18" letter-spacing="3" fill="#8e3d32">04 / AUTHORITY</text>
+      <text y="58" font-size="36" font-weight="700" fill="#18211f">DECISION</text>
+      <text y="105" font-size="24" fill="#45504d">review · action · record</text>
+      <path d="M0 150H220" stroke="#8e3d32" stroke-width="7"/>
+    </g>
+  </g>
+  <path d="M382 270h34m-17-17 17 17-17 17M702 270h34m-17-17 17 17-17 17M1022 270h34m-17-17 17 17-17 17" fill="none" stroke="#18211f" stroke-width="3"/>
+  <rect x="90" y="455" width="1220" height="150" fill="none" stroke="#18211f" stroke-width="2"/>
+  <text x="130" y="515" font-family="Georgia, serif" font-size="32" fill="#18211f">Connection increases context.</text>
+  <text x="130" y="563" font-family="Georgia, serif" font-size="32" fill="#18211f">It does not transfer authority.</text>
+  <text x="1040" y="555" font-family="Arial, sans-serif" font-size="20" letter-spacing="3" fill="#8e3d32">HUMAN REVIEW</text>
+  <text x="90" y="755" font-family="Arial, sans-serif" font-size="19" letter-spacing="3" fill="#5a6461">SAFEPLATE™ BY FUNCTION MEDIA LLC / PUBLIC CONCEPTUAL OVERVIEW</text>
+</svg>
+
