@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+  <title id="t">One district day, four operational clocks</title>
+  <desc id="d">Planned, observed, communicated, and reviewed time converge on an authorized human decision.</desc>
+  <rect width="1200" height="720" fill="#f3efe6"/>
+  <text x="72" y="84" font-family="Georgia,serif" font-size="48" fill="#101923">One day. Four clocks.</text>
+  <text x="74" y="122" font-family="monospace" font-size="18" fill="#5a6268">DISTRICT OPERATING RECORD / FIGURE 01</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(220 340)"><circle r="116" fill="none" stroke="#3e6e8e" stroke-width="3"/><path d="M0-90V0L62 34" fill="none" stroke="#101923" stroke-width="8" stroke-linecap="round"/><circle r="9" fill="#d59a32"/><text y="156" font-size="24" fill="#101923">PLANNED</text><text y="184" font-size="17" fill="#5a6268">schedule / intent</text></g>
+    <g transform="translate(500 340)"><circle r="116" fill="none" stroke="#7c8e83" stroke-width="3"/><path d="M0-90V0L-70 18" fill="none" stroke="#101923" stroke-width="8" stroke-linecap="round"/><circle r="9" fill="#d59a32"/><text y="156" font-size="24" fill="#101923">OBSERVED</text><text y="184" font-size="17" fill="#5a6268">arrival / event</text></g>
+    <g transform="translate(780 340)"><circle r="116" fill="none" stroke="#d59a32" stroke-width="3"/><path d="M0-90V0L46-62" fill="none" stroke="#101923" stroke-width="8" stroke-linecap="round"/><circle r="9" fill="#d59a32"/><text y="156" font-size="24" fill="#101923">COMMUNICATED</text><text y="184" font-size="17" fill="#5a6268">notice / receipt</text></g>
+    <g transform="translate(1040 340)"><circle r="104" fill="#101923"/><path d="M-36 2l24 24 52-62" fill="none" stroke="#f3efe6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><text y="146" font-size="24" fill="#101923">REVIEWED</text><text y="174" font-size="17" fill="#5a6268">human authority</text></g>
+  </g>
+  <path d="M336 340H384M616 340H664M896 340H928" stroke="#34383c" stroke-width="2" stroke-dasharray="7 8"/>
+  <text x="72" y="660" font-family="Georgia,serif" font-size="25" fill="#34383c">Accuracy is not sameness. Each clock must keep its meaning.</text>
+</svg>

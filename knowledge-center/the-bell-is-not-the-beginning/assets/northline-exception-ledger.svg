@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
+  <title id="t">An exception ledger for a delayed route</title>
+  <desc id="d">A structured ledger keeps the original signal, corroborating records, open questions, reviewer, and disposition separate.</desc>
+  <rect width="1200" height="760" fill="#101923"/>
+  <text x="68" y="78" font-family="Georgia,serif" font-size="46" fill="#f3efe6">The exception is the work.</text>
+  <text x="70" y="116" font-family="monospace" font-size="17" fill="#d59a32">ROUTE DELAY / HUMAN-REVIEW LEDGER / FIGURE 02</text>
+  <g transform="translate(70 168)" font-family="Arial,sans-serif">
+    <rect width="1060" height="500" fill="none" stroke="#50606c"/>
+    <path d="M0 100H1060M0 200H1060M0 300H1060M0 400H1060M300 0V500" stroke="#50606c"/>
+    <g font-size="19" fill="#9fb0bb"><text x="26" y="58">ORIGINAL SIGNAL</text><text x="26" y="158">CORROBORATING RECORDS</text><text x="26" y="258">OPEN QUESTION</text><text x="26" y="358">ASSIGNED REVIEWER</text><text x="26" y="458">DISPOSITION</text></g>
+    <g font-size="24" fill="#f3efe6"><text x="342" y="58">Route 14 running 18 minutes behind planned time</text><text x="342" y="151">Vehicle arrival • family notice • school entry</text><text x="342" y="180" font-size="17" fill="#9fb0bb">Records remain attributable; disagreement is not erased.</text><text x="342" y="258">Which late arrivals were transportation-related?</text><text x="342" y="358">Authorized attendance operations lead</text><text x="342" y="451">Verified correction with evidence attached</text><text x="342" y="480" font-size="17" fill="#9fb0bb">Decision, reasoning, and prior state remain auditable.</text></g>
+  </g>
+</svg>
