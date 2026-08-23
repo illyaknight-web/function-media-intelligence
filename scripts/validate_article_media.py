@@ -2,8 +2,8 @@
 """Fail publishing when a Knowledge Center article has broken or incomplete media."""
 from pathlib import Path
 from html.parser import HTMLParser
-from urllib.parse import urlparse, unquote
-import struct, sys
+from urllib.parse import urlparse, unquote, parse_qs
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLES = ROOT / "knowledge-center"
@@ -22,13 +22,28 @@ class MediaParser(HTMLParser):
             self.og_images.append(a["content"])
 
 def local_path(article, ref):
-    clean = ref.split("?", 1)[0].split("#", 1)[0]
-    parsed = urlparse(clean)
-    if parsed.scheme:
-        if parsed.netloc != SITE_HOST:
+    """Resolve same-site media references to their source file in the repo.
+
+    Netlify Image CDN URLs such as /.netlify/images?url=/assets/hero.png&...
+    are virtual endpoints. Validate the underlying `url` source asset instead of
+    incorrectly looking for a physical `.netlify/images` file in the repository.
+    """
+    parsed = urlparse(ref)
+
+    if parsed.scheme and parsed.netloc != SITE_HOST:
+        return None
+
+    if parsed.path == "/.netlify/images":
+        source = parse_qs(parsed.query).get("url", [None])[0]
+        if not source:
             return None
-        clean = parsed.path
-    return ROOT / unquote(clean.lstrip("/")) if clean.startswith("/") else article.parent / unquote(clean)
+        source = unquote(source)
+        return local_path(article, source)
+
+    clean_path = unquote(parsed.path)
+    if clean_path.startswith("/"):
+        return ROOT / clean_path.lstrip("/")
+    return article.parent / clean_path
 
 def valid_signature(path):
     data = path.read_bytes()[:16]
