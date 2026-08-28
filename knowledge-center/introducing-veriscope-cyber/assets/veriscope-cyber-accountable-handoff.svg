@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+<title id="title">VERISCOPE CYBER accountable evidence handoff</title>
+<desc id="desc">A responsive technical illustration showing evidence moving from analyst review through controlled handoff to authorized decision, with provenance and review checkpoints preserved.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061226"/><stop offset="1" stop-color="#030711"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1730"/><stop offset="1" stop-color="#071120"/></linearGradient>
+  <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#37e8ff"/><stop offset="1" stop-color="#356cff"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .label{font:600 24px Arial,sans-serif;fill:#f7fbff}.small{font:500 18px monospace;fill:#8fa5bd;letter-spacing:2px}.meta{font:600 17px monospace;fill:#bdefff;letter-spacing:1.5px}.node{fill:#071120;stroke:#37e8ff;stroke-width:2}.dash{fill:none;stroke:#8e70ff;stroke-width:2;stroke-dasharray:10 10}.flow{stroke:url(#flow);stroke-width:4;fill:none;stroke-linecap:round}.pulse{fill:#37e8ff;filter:url(#glow)}
+    @media (prefers-reduced-motion:no-preference){.pulse{animation:p 2.2s ease-in-out infinite}.dash{animation:d 8s linear infinite}@keyframes p{50%{opacity:.35;transform:scale(1.35);transform-origin:center}}@keyframes d{to{stroke-dashoffset:-80}}}
+  </style>
+</defs>
+<rect width="1536" height="1024" fill="url(#bg)"/>
+<g opacity=".17" stroke="#37e8ff"><path d="M0 128H1536M0 256H1536M0 384H1536M0 512H1536M0 640H1536M0 768H1536M0 896H1536"/><path d="M128 0V1024M256 0V1024M384 0V1024M512 0V1024M640 0V1024M768 0V1024M896 0V1024M1024 0V1024M1152 0V1024M1280 0V1024M1408 0V1024"/></g>
+<text x="90" y="88" class="small">VERISCOPE CYBER™ / CONTROLLED HANDOFF</text>
+<text x="90" y="140" class="label" font-size="44">Every handoff changes the system.</text>
+<text x="90" y="184" class="small">IDENTITY • STATE • PROVENANCE • AUTHORITY • UNRESOLVED QUESTIONS</text>
+<g transform="translate(110 300)">
+  <rect class="node" width="330" height="300" rx="18" fill="url(#card)"/>
+  <text x="28" y="45" class="small">01 / ANALYST</text><text x="28" y="92" class="label">Review evidence</text>
+  <rect x="28" y="126" width="274" height="34" rx="8" fill="#0e2142"/><text x="44" y="149" class="meta">SOURCE A / VERIFIED</text>
+  <rect x="28" y="176" width="274" height="34" rx="8" fill="#0e2142"/><text x="44" y="199" class="meta">SOURCE B / CONFLICT</text>
+  <rect x="28" y="226" width="274" height="34" rx="8" fill="#0e2142"/><text x="44" y="249" class="meta">NOTES / ATTACHED</text>
+</g>
+<g transform="translate(603 300)">
+  <rect class="node" width="330" height="300" rx="18" fill="url(#card)"/>
+  <text x="28" y="45" class="small">02 / HANDOFF</text><text x="28" y="92" class="label">Preserve context</text>
+  <circle cx="86" cy="174" r="48" class="dash"/><circle cx="86" cy="174" r="11" class="pulse"/>
+  <text x="156" y="156" class="meta">OWNER: TEAM B</text><text x="156" y="190" class="meta">STATUS: REVIEW</text><text x="156" y="224" class="meta">LINEAGE: INTACT</text>
+</g>
+<g transform="translate(1096 300)">
+  <rect class="node" width="330" height="300" rx="18" fill="url(#card)"/>
+  <text x="28" y="45" class="small">03 / AUTHORITY</text><text x="28" y="92" class="label">Record decision</text>
+  <rect x="28" y="128" width="274" height="56" rx="10" fill="#0e2142" stroke="#356cff"/><text x="48" y="163" class="meta">ACTION / PERMITTED</text>
+  <rect x="28" y="204" width="274" height="56" rx="10" fill="#0e2142" stroke="#37e8ff"/><text x="48" y="239" class="meta">RATIONALE / STORED</text>
+</g>
+<path class="flow" d="M440 450 C500 450 535 450 603 450"/><path class="flow" d="M933 450 C995 450 1030 450 1096 450"/>
+<circle cx="522" cy="450" r="9" class="pulse"/><circle cx="1013" cy="450" r="9" class="pulse"/>
+<g transform="translate(110 710)">
+  <rect width="1316" height="170" rx="16" fill="#071120" stroke="rgba(126,174,255,.35)"/>
+  <text x="28" y="48" class="small">HANDOFF RECORD</text>
+  <text x="28" y="92" class="meta">PROVENANCE PRESERVED</text><text x="400" y="92" class="meta">AUTHORITY EXPLICIT</text><text x="755" y="92" class="meta">REVIEW RECORDED</text>
+  <text x="28" y="132" class="small">A trustworthy transfer carries the evidence path, current state, restrictions, ownership, and unresolved questions forward.</text>
+</g>
+</svg>
