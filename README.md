@@ -4,7 +4,7 @@ Function Media LLC is a systems-engineering company developing evidence-centered
 
 ## Leadership
 
-- **Illya Knight** — Founder and Managing Member
+- [**Illya Knight**](https://function-media-intelligence.netlify.app/illya-knight/) — Founder and Managing Member
 - **Shea Johnson** — Co-Owner
 
 ## Official technology portfolio
@@ -44,6 +44,12 @@ Function Media publishes analysis on operational intelligence, evidence, applied
 [Read **Operational Intelligence Is Becoming Infrastructure**](https://function-media.hashnode.dev/operational-intelligence-is-becoming-infrastructure)
 
 [Visit the **Function Media publication on Hashnode**](https://function-media.hashnode.dev/)
+
+### A Case Is Not a Row in a Database
+
+Institutional work cannot be represented adequately by a current status alone. This Function Media field note explains why a defensible case preserves identity, chronology, source provenance, authority, contradiction, human review, and decision lineage.
+
+[Read **A Case Is Not a Row in a Database**](https://function-media-intelligence.netlify.app/knowledge-center/a-case-is-not-a-row-in-a-database/)
 
 ## Project status
 
