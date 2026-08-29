@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-<url><loc>https://function-media-intelligence.netlify.app/</loc><lastmod>2026-08-27</lastmod><priority>1.0</priority></url>
+<url><loc>https://function-media-intelligence.netlify.app/</loc><lastmod>2026-08-29</lastmod><priority>1.0</priority></url>
+<url><loc>https://function-media-intelligence.netlify.app/knowledge-center/</loc><lastmod>2026-08-29</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
 <url><loc>https://function-media-intelligence.netlify.app/technology-portfolio.html</loc><lastmod>2026-08-28</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
 <url><loc>https://function-media-intelligence.netlify.app/about.html</loc><lastmod>2026-08-18</lastmod><priority>0.9</priority></url>
 <url><loc>https://function-media-intelligence.netlify.app/illya-knight/</loc><lastmod>2026-08-28</lastmod><changefreq>weekly</changefreq><priority>1.0</priority><image:image><image:loc>https://function-media-intelligence.netlify.app/knowledge-center/a-case-is-not-a-row-in-a-database/assets/function-media-evidence-aware-case-review-illya-knight.jpg</image:loc><image:title>Illya Knight and Function Media evidence-aware operational systems</image:title><image:caption>Function Media evidence-aware case review architecture associated with founder Illya Knight.</image:caption></image:image></url>
