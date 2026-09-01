@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">The technology decision lifecycle</title>
+  <desc id="desc">Five connected stages from board authorization through readiness, use, review, and renewal or retirement.</desc>
+  <rect width="1400" height="760" fill="#f3efe5"/>
+  <text x="72" y="92" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0b2638">FUNCTION MEDIA LLC · NORTHLINE™</text>
+  <text x="72" y="148" font-family="Georgia, serif" font-size="48" font-weight="700" fill="#0b2638">The vote creates a lifecycle</text>
+  <text x="72" y="188" font-family="Arial, sans-serif" font-size="20" fill="#405565">A public decision becomes a chain of operating obligations.</text>
+  <path d="M170 390 H1230" stroke="#87a49d" stroke-width="8" stroke-linecap="round"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(170 390)"><circle r="78" fill="#0b2638"/><text y="-4" font-size="22" font-weight="700" fill="white">AUTHORIZE</text><text y="27" font-size="16" fill="#bde8dc">Purpose · funds</text><text y="125" font-size="18" fill="#0b2638">Board action</text></g>
+    <g transform="translate(435 390)"><circle r="78" fill="#d99548"/><text y="-4" font-size="22" font-weight="700" fill="#13242d">PREPARE</text><text y="27" font-size="16" fill="#13242d">Access · training</text><text y="125" font-size="18" fill="#0b2638">Readiness</text></g>
+    <g transform="translate(700 390)"><circle r="78" fill="#5aa795"/><text y="-4" font-size="22" font-weight="700" fill="white">OPERATE</text><text y="27" font-size="16" fill="white">Use · support</text><text y="125" font-size="18" fill="#0b2638">School reality</text></g>
+    <g transform="translate(965 390)"><circle r="78" fill="#6c7f9a"/><text y="-4" font-size="22" font-weight="700" fill="white">REVIEW</text><text y="27" font-size="16" fill="white">Evidence · gaps</text><text y="125" font-size="18" fill="#0b2638">Oversight</text></g>
+    <g transform="translate(1230 390)"><circle r="78" fill="#0b2638"/><text y="-4" font-size="20" font-weight="700" fill="white">DECIDE</text><text y="27" font-size="16" fill="#bde8dc">Renew · retire</text><text y="125" font-size="18" fill="#0b2638">Next authority</text></g>
+  </g>
+  <rect x="72" y="626" width="1256" height="70" rx="14" fill="#dce6e1"/>
+  <text x="700" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#183848">Source lineage · role-based access · human review · documented change</text>
+</svg>
+
