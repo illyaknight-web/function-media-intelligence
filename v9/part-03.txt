@@ -1,0 +1,164 @@
+) .1s,transform .9s cubic-bezier(.16,1,.3,1) .1s}
+.contact-cta{transition-delay:.3s}
+
+/* dot field stagger-in */
+.dots circle{opacity:0;transform-origin:center;animation:dotIn .6s cubic-bezier(.34,1.56,.64,1) forwards;animation-play-state:paused}
+.index.in .dots circle{animation-play-state:running}
+@keyframes dotIn{to{opacity:.55}}
+
+
+/* ---- ABOUT ---- */
+.about{background:#000;padding:8vw 4vw 7vw;border-top:1px solid var(--line)}
+.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:6vw}
+.about-kicker{font:600 13px var(--sans);letter-spacing:.02em;color:var(--dim);margin:0 0 18px}
+.about h2{margin:0;font-size:clamp(34px,4.6vw,62px);font-weight:800;letter-spacing:-.03em;line-height:1.02}
+.about-lede{font:400 clamp(19px,1.8vw,26px)/1.5 var(--sans);color:#e7e6e1;margin:26px 0 0;max-width:26ch}
+.about-body p{font:400 16px/1.65 var(--sans);color:var(--dim);max-width:52ch;margin:0 0 20px}
+.about-facts{margin-top:34px;border-top:1px solid var(--line)}
+.about-fact{display:grid;grid-template-columns:90px 1fr;gap:20px;padding:20px 0;border-bottom:1px solid var(--line)}
+.about-fact b{font:600 13px var(--sans);color:var(--blue)}
+.about-fact span{font:400 15px/1.5 var(--sans);color:#d8d7d2}
+@media(max-width:860px){.about-grid{grid-template-columns:1fr;gap:32px}}
+
+
+/* ---- phone-frame variant for the Corporate card ---- */
+.device.phone{border-radius:30px;border-width:1.5px}
+.device.phone .devbar{justify-content:center;padding:14px 0 10px;border-bottom:none;background:none}
+.device.phone .devbar .notch{width:64px;height:18px;border-radius:10px;background:#000;border:1px solid var(--line)}
+.device.phone .devscreen{padding-top:6px}
+.device.phone .devfoot{margin-top:auto}
+
+
+.devscreen.plain-photo .devphoto:after{display:none}
+
+</style></head>
+<body>
+
+<div class="cur-ring" id="curRing"></div>
+<div class="cur-dot" id="curDot"></div>
+
+<header class="nav">
+  <a class="logo" href="#"><span class="ring"></span>FUNCTION MEDIA</a>
+  <nav class="navlinks">
+    <a href="#about">About</a>
+    <a href="#platforms">Platforms</a>
+    <a href="#evidence">Approach</a>
+    <a href="#leadership">Leadership</a>
+  </nav>
+  <a class="navcta" href="#contact">&#8599; Get in touch</a>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-img"><div class="hero-img-inner"></div></div>
+  <div class="herotop"><div class="eyebrow">Function Media LLC &mdash; Evidence-Aware Systems</div></div>
+  <div class="herobottom">
+    <h1><span class="hero-line"><span><i>Evidence</i></span></span><span class="hero-line"><span><b>Infrastructure.</b></span></span></h1>
+    <div class="hero-cta">View<br>Platforms<br>&darr;</div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="about-grid">
+    <div>
+      <p class="about-kicker reveal">Who we are</p>
+      <h2 class="reveal">What Function Media does.</h2>
+    </div>
+    <div>
+      <p class="about-lede reveal">We're a two-person GovTech/AI and marketing company building infrastructure for institutions that can't afford to guess.</p>
+      <div class="about-body">
+        <p class="reveal">Function Media designs, builds, and operates evidence-aware platforms for mission-critical domains &mdash; food safety, K&ndash;12 district operations, and complex evidence environments. We don't hand a strategy deck to a dev shop and hope it survives contact with production: the same two people who scope a platform ship it, run it, and answer for it.</p>
+        <p class="reveal">We're also a working marketing and creative studio &mdash; brand systems, campaign production, and editorial-grade websites for clients outside the GovTech portfolio. The same discipline runs through both sides of the business: nothing ships until it's been thought through end to end.</p>
+        <p class="reveal">Every system we build follows one rule regardless of domain: preserve where evidence came from, surface disagreement instead of smoothing it over, and keep a human in the loop for anything consequential.</p>
+      </div>
+      <div class="about-facts stagger">
+        <div class="about-fact reveal"><b>Where</b><span>New York</span></div>
+        <div class="about-fact reveal"><b>What</b><span>Evidence-aware infrastructure and marketing/creative work &mdash; food safety, education, mission-critical evidence environments, and brand campaigns</span></div>
+        <div class="about-fact reveal"><b>How</b><span>Design, engineering, and operations under one roof &mdash; two founders, no outsourcing</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SIGNAL TICKER ============ -->
+<div class="sigwrap">
+  <div class="sigtrack">
+    <span><em></em>EVIDENCE<em></em>CONTEXT<em></em>DISAGREEMENT<em></em>HUMAN REVIEW<em></em>ACTION<em></em>VERISCOPE&trade;<em></em>SAFEPLATE&trade;<em></em>NORTHLINE&trade;</span>
+    <span><em></em>EVIDENCE<em></em>CONTEXT<em></em>DISAGREEMENT<em></em>HUMAN REVIEW<em></em>ACTION<em></em>VERISCOPE&trade;<em></em>SAFEPLATE&trade;<em></em>NORTHLINE&trade;</span>
+  </div>
+</div>
+
+<!-- ============ INDEX (dot field) ============ -->
+<section class="index" id="platforms">
+  <div class="dots" aria-hidden="true"><svg viewBox="0 0 1400 700">
+    <circle cx="2" cy="29" r="3.5"/>
+    <circle cx="-7" cy="164" r="3.5"/>
+    <circle cx="-4" cy="272" r="5"/>
+    <circle cx="-3" cy="354" r="5"/>
+    <circle cx="-7" cy="496" r="3.5"/>
+    <circle cx="92" cy="167" r="5"/>
+    <circle cx="84" cy="275" r="3.5"/>
+    <circle cx="98" cy="357" r="3.5"/>
+    <circle cx="98" cy="607" r="3.5"/>
+    <circle cx="172" cy="55" r="3.5"/>
+    <circle cx="183" cy="274" r="3.5"/>
+    <circle cx="181" cy="379" r="3.5"/>
+    <circle cx="269" cy="56" r="3.5"/>
+    <circle cx="263" cy="354" r="3.5"/>
+    <circle cx="264" cy="481" r="3.5"/>
+    <circle cx="277" cy="574" r="3.5"/>
+    <circle cx="369" cy="152" r="3.5"/>
+    <circle cx="358" cy="355" r="3.5"/>
+    <circle cx="370" cy="589" r="3.5"/>
+    <circle cx="451" cy="154" r="5"/>
+    <circle cx="459" cy="250" r="5"/>
+    <circle cx="444" cy="368" r="3.5"/>
+    <circle cx="442" cy="491" r="3.5"/>
+    <circle cx="444" cy="587" r="3.5"/>
+    <circle cx="541" cy="156" r="3.5"/>
+    <circle cx="534" cy="254" r="5"/>
+    <circle cx="530" cy="364" r="3.5"/>
+    <circle cx="534" cy="570" r="3.5"/>
+    <circle cx="630" cy="56" r="3.5"/>
+    <circle cx="640" cy="279" r="3.5"/>
+    <circle cx="632" cy="385" r="3.5"/>
+    <circle cx="640" cy="490" r="3.5"/>
+    <circle cx="634" cy="583" r="3.5"/>
+    <circle cx="713" cy="23" r="5"/>
+    <circle cx="721" cy="136" r="3.5"/>
+    <circle cx="729" cy="253" r="3.5"/>
+    <circle cx="815" cy="27" r="3.5"/>
+    <circle cx="809" cy="160" r="5"/>
+    <circle cx="808" cy="261" r="3.5"/>
+    <circle cx="816" cy="473" r="3.5"/>
+    <circle cx="898" cy="245" r="3.5"/>
+    <circle cx="907" cy="474" r="3.5"/>
+    <circle cx="897" cy="610" r="3.5"/>
+    <circle cx="992" cy="255" r="3.5"/>
+    <circle cx="995" cy="383" r="3.5"/>
+    <circle cx="988" cy="461" r="3.5"/>
+    <circle cx="991" cy="608" r="3.5"/>
+    <circle cx="1073" cy="364" r="3.5"/>
+    <circle cx="1085" cy="473" r="3.5"/>
+    <circle cx="1180" cy="152" r="5"/>
+    <circle cx="1263" cy="31" r="3.5"/>
+    <circle cx="1264" cy="155" r="3.5"/>
+    <circle cx="1250" cy="468" r="3.5"/>
+    <circle cx="1355" cy="168" r="3.5"/>
+    <circle cx="1357" cy="275" r="5"/>
+    <circle cx="1356" cy="356" r="3.5"/>
+    <circle cx="1346" cy="472" r="5"/>
+    <circle cx="1347" cy="602" r="3.5"/>
+  </svg></div>
+  <p class="index-head">Not a product grid. Four platforms, four missions, one operating discipline underneath.</p>
+  <div class="index-list stagger">
+    <a class="index-row reveal" href="https://veriscope-intelligence.netlify.app/"><span>VERISCOPE <small>&mdash; evidence &amp; mission intelligence</small></span><span class="tag">01</span></a>
+    <a class="index-row reveal" href="https://safeplate-intelligence.netlify.app/"><span>SAFEPLATE <small>&mdash; food safety intelligence</small></span><span class="tag">02</span></a>
+    <a class="index-row reveal" href="https://northline-intelligence.netlify.app/"><span>NORTHLINE <small>&mdash; K&ndash;12 operations intelligence</small></span><span class="tag">03</span></a>
+    <a class="index-row reveal" href="#"><span>Function Media <small>&mdash; corporate &amp; SBIR</small></span><span class="tag">04</span></a>
+  </div>
+</section>
+
+<!-- ============ DEVICE GALLERY ============ -->
+<sectio

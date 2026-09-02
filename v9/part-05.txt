@@ -1,0 +1,13 @@
+requestAnimationFrame(step);
+  }, {threshold:.5});
+  io.observe(el);
+});
+
+/* production link fixes */
+const footerLinks=document.querySelectorAll('footer .flinks a');
+footerLinks[0]?.setAttribute('href','https://veriscope-intelligence.netlify.app/');
+footerLinks[1]?.setAttribute('href','https://safeplate-intelligence.netlify.app/');
+footerLinks[2]?.setAttribute('href','https://northline-intelligence.netlify.app/');
+document.querySelector('.index-list .index-row[href="#"]')?.setAttribute('href','/');
+</script>
+</body></html>

@@ -1,0 +1,124 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Function Media LLC | Intelligence Infrastructure for Consequential Missions</title>
+<meta name="description" content="Function Media LLC builds human-led intelligence infrastructure for consequential missions.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://function-media-intelligence.netlify.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Function Media LLC | Intelligence Infrastructure for Consequential Missions">
+<meta property="og:description" content="Human-led intelligence infrastructure for consequential environments.">
+<meta property="og:url" content="https://function-media-intelligence.netlify.app/">
+<meta property="og:image" content="https://function-media-intelligence.netlify.app/assets/function-media-hero.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#000;
+  --fg:#fff;
+  --off:#f4f3ee;
+  --dim:#8a8a86;
+  --line:rgba(255,255,255,.15);
+  --line-dark:rgba(0,0,0,.13);
+  --blue:#3d6df2;
+  --sans:'Inter',Arial,Helvetica,sans-serif;
+  --serif:Georgia,'Times New Roman',serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+*{box-sizing:border-box;cursor:none}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+section{position:relative;scroll-margin-top:90px}
+
+/* ---- custom cursor (matches both reference sites) ---- */
+.cur-ring{position:fixed;z-index:999;width:34px;height:34px;border:1px solid #fff;border-radius:50%;
+  pointer-events:none;transform:translate(-50%,-50%);transition:width .2s,height .2s,border-color .2s,background .2s;mix-blend-mode:difference}
+.cur-dot{position:fixed;z-index:999;width:6px;height:6px;border-radius:50%;background:#5CFFB0;pointer-events:none;transform:translate(-50%,-50%)}
+.cur-ring.big{width:64px;height:64px;background:rgba(255,255,255,.06)}
+
+/* ---- NAV ---- */
+.nav{position:fixed;z-index:60;top:0;left:0;right:0;height:76px;padding:0 4vw;display:flex;align-items:center;justify-content:space-between;
+  background:rgba(0,0,0,.65);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;letter-spacing:-.02em}
+.logo .ring{width:20px;height:20px;border-radius:50%;border:2px solid #fff;position:relative}
+.logo .ring:after{content:"";position:absolute;inset:5px;border-radius:50%;background:var(--blue)}
+.navcta{background:#fff;color:#000;font:600 13px var(--sans);padding:11px 20px;border-radius:99px;display:flex;align-items:center;gap:8px}
+.navlinks{display:flex;gap:34px;font:500 14px var(--sans);color:#e9e8e4}
+.navlinks a{opacity:.85}
+.navlinks a:hover{opacity:1}
+@media(max-width:860px){.navlinks{display:none}.nav{height:60px;padding:0 18px}}
+
+/* ---- HERO (real circuit photo) ---- */
+.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden}
+.hero-img{position:absolute;inset:0;overflow:hidden}
+.hero-img-inner{position:absolute;inset:-6%;background:url(/assets/function-media-hero.png) center/cover no-repeat;
+  filter:saturate(1.15) brightness(1.05);animation:drift 22s ease-in-out infinite}
+@keyframes drift{
+  0%{transform:scale(1.08) translate(0,0)}
+  50%{transform:scale(1.16) translate(-2.2%,-1.4%)}
+  100%{transform:scale(1.08) translate(0,0)}
+}
+.hero-img:after{content:"";position:absolute;inset:0;
+  background:linear-gradient(0deg,#000 6%,rgba(0,0,0,.35) 42%,rgba(0,0,0,.65) 100%)}
+.herotop{position:relative;z-index:2;padding:110px 4vw 0}
+.eyebrow{font:600 13px var(--sans);letter-spacing:.02em;color:var(--dim)}
+.herobottom{position:relative;z-index:2;padding:0 4vw 80px;display:flex;justify-content:space-between;align-items:flex-end;gap:40px}
+h1{margin:22px 0 0;font-size:clamp(56px,9vw,150px);line-height:.86;letter-spacing:-.035em;font-weight:800}
+h1 i{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--dim)}
+.hero-cta{width:112px;height:112px;flex:0 0 auto;border:1px solid rgba(255,255,255,.55);border-radius:50%;
+  display:flex;align-items:center;justify-content:center;text-align:center;font:600 12px/1.3 var(--sans)}
+@media(max-width:860px){
+  .herobottom{flex-direction:column;align-items:flex-start;gap:28px}
+  h1{font-size:15vw}
+  .hero-cta{width:88px;height:88px;font-size:10px}
+}
+
+/* ---- INDEX / dot field (Hobro white section) ---- */
+.index{background:var(--off);color:#0a0a0a;padding:9vw 4vw;overflow:hidden;position:relative}
+.dots{position:absolute;inset:0;opacity:.85;pointer-events:none}
+.dots svg{width:100%;height:100%}
+.dots circle{fill:#0a0a0a;opacity:.55}
+.index-head{position:relative;z-index:2;font:500 14px var(--sans);color:#5c5b57;max-width:26ch;margin:0 0 5vw}
+.index-list{position:relative;z-index:2;border-top:1px solid var(--line-dark)}
+.index-row{display:flex;align-items:baseline;justify-content:space-between;padding:26px 0;
+  border-bottom:1px solid var(--line-dark);font-weight:800;font-size:clamp(30px,5vw,72px);letter-spacing:-.03em}
+.index-row span:first-child{display:flex;align-items:baseline;gap:20px}
+.index-row small{font:500 13px var(--sans);color:#8a8985;letter-spacing:0}
+.index-row .tag{font:600 11px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:#8a8985}
+.index-row:hover{color:var(--blue)}
+@media(max-width:860px){.index-row{font-size:9vw;flex-direction:column;align-items:flex-start;gap:8px}}
+
+/* ---- DEVICE GALLERY (Summit mockup collage) ---- */
+.gallery{background:#050608;padding:8vw 4vw 9vw;border-top:1px solid var(--line)}
+.gallery-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:5.5vw;flex-wrap:wrap}
+.gallery-head h2{margin:0;font-size:clamp(32px,4.4vw,60px);font-weight:800;letter-spacing:-.03em;max-width:11ch}
+.gallery-head p{margin:0;font:400 17px/1.5 var(--sans);color:var(--dim);max-width:34ch}
+.devrow{display:grid;grid-template-columns:repeat(5,1fr);gap:26px;align-items:start}
+.device{background:linear-gradient(180deg,#0d0f14,#0a0b0e);border:1px solid var(--line);border-radius:20px;
+  overflow:hidden;transform:rotate(var(--r,0deg));transition:transform .4s cubic-bezier(.16,1,.3,1),border-color .3s,box-shadow .3s}
+.device:hover{transform:rotate(0deg) translateY(-8px);border-color:currentColor;box-shadow:0 24px 48px -20px rgba(0,0,0,.6),0 0 0 1px currentColor inset}
+.device:nth-child(1){--r:-1.6deg}
+.device:nth-child(2){--r:1.1deg;margin-top:26px}
+.device:nth-child(3){--r:-.8deg}
+.device:nth-child(4){--r:1.4deg;margin-top:26px}
+.device:nth-child(5){--r:-1.2deg}
+.devbar{position:relative;z-index:2;display:flex;align-items:center;gap:6px;padding:14px 16px;border-bottom:1px solid rgba(255,255,255,.14);background:rgba(10,11,14,.55);backdrop-filter:blur(6px)}
+.devbar i{width:7px;height:7px;border-radius:50%;background:#2a2c31}
+.devscreen{position:relative;aspect-ratio:3/4;display:flex;flex-direction:column}
+.devscreen.has-photo{padding:0}
+.devscreen:not(.has-photo){padding:26px 20px 22px}
+.devphoto{position:absolute;inset:0;background-size:cover;background-position:center}
+.devphoto:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.92) 0%,rgba(0,0,0,.35) 46%,rgba(0,0,0,.05) 68%)}
+.devtext{position:relative;z-index:2;padding:20px;margin-top:auto;display:flex;flex-direction:column;gap:0}
+.devtag{font:700 10px var(--sans);letter-spacing:.1em;text-transform:uppercase;line-height:1}
+.devscreen h3{margin:14px 0 0;font-size:21px;font-weight:800;letter-spacing:-.02em;line-height:1.1;color:var(--fg)}
+.devscreen:not(.has-photo) h3{min-height:2.2em}
+.devscreen svg{width:100%;height:96px;flex:0 0 auto;margin:18px 0}
+.devscreen svg path{stroke:currentColor;stroke-width:1.25;fill:none;opacity:.6}
+.devscreen svg circle{fill:#0a0b0e;stroke:currentColor;stroke-width:1.25}
+.devfoot{padding-top:14px;border-top:1px solid rgba(255,255,255,.16)}
+.devscreen:not(.has-photo) .devfoot{margin-top:auto;border-top:1px solid var(--line)}
+.devscreen p{margin:0;font:400 13px/1.5 var(--sans);color:var(--dim)}
+.devscreen.has-photo p{color:#d8d7d2}
+@media(max-width:860px)

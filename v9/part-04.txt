@@ -1,0 +1,184 @@
+n class="gallery">
+  <div class="gallery-head">
+    <h2>Built to run in the field, not a pitch deck.</h2>
+    <p>Each platform ships as its own working environment &mdash; live data, real interfaces, evidence you can trace back to source.</p>
+  </div>
+  <div class="devrow stagger">
+    <div class="device" style="color:#3d6df2">
+      <div class="devbar"><i></i><i></i><i></i></div>
+      <div class="devscreen has-photo">
+        <div class="devphoto" style="background-image:url(/assets/veriscope-cyber-review-room.png)"></div>
+        <div class="devtext">
+          <div class="devtag">VERISCOPE</div>
+          <h3>See everything.</h3>
+          <div class="devfoot"><p>Evidence-centered intelligence infrastructure.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="device" style="color:#8ed6b0">
+      <div class="devbar"><i></i><i></i><i></i></div>
+      <div class="devscreen has-photo">
+        <div class="devphoto" style="background-image:url(/knowledge-center/the-kitchen-is-the-last-mile/assets/function-media-safeplate-household-recall-last-mile.webp)"></div>
+        <div class="devtext">
+          <div class="devtag">SAFEPLATE</div>
+          <h3>Early warning.</h3>
+          <div class="devfoot"><p>Recall, source, and distribution evidence.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="device" style="color:#d3a765">
+      <div class="devbar"><i></i><i></i><i></i></div>
+      <div class="devscreen has-photo">
+        <div class="devphoto" style="background-image:url(/knowledge-center/the-bell-is-not-the-beginning/assets/northline-educators-function-media-stamped-v4.jpg)"></div>
+        <div class="devtext">
+          <div class="devtag">NORTHLINE</div>
+          <h3>School impact.</h3>
+          <div class="devfoot"><p>District operations, human decisions.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="device" style="color:#b99cff">
+      <div class="devbar"><i></i><i></i><i></i></div>
+      <div class="devscreen has-photo">
+        <div class="devphoto" style="background-image:url(/knowledge-center/introducing-veriscope-cyber/assets/veriscope-cyber-review-room.png)"></div>
+        <div class="devtext">
+          <div class="devtag">VERISCOPE SUITE</div>
+          <h3>Defense. Cyber. Juris.</h3>
+          <div class="devfoot"><p>Specialized mission systems for defense, cyber, and justice.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="device" style="color:#f4f3ee">
+      <div class="devbar"><i></i><i></i><i></i></div>
+      <div class="devscreen has-photo plain-photo">
+        <div class="devphoto" style="background-image:url(/knowledge-center/a-case-is-not-a-row-in-a-database/assets/function-media-evidence-aware-case-review-illya-knight.webp)"></div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats stagger">
+  <div class="stat reveal"><b data-count="4">0</b><span>Mission platforms</span></div>
+  <div class="stat reveal"><b data-count="2">0</b><span>Founding principals</span></div>
+  <div class="stat reveal"><b data-count="1">0</b><span>Engineering discipline</span></div>
+  <div class="stat reveal"><b>&infin;</b><span>Human authority preserved</span></div>
+</section>
+
+<!-- ============ EVIDENCE / STEPS ============ -->
+<section class="evidence" id="evidence">
+  <div class="evidence-hero" role="img" aria-label="Function Media chip, embossed with the values that govern every platform: trust, verification, context, integrity, accuracy, transparency, human judgment, accountability, consequence">
+    <div class="evidence-head">
+      <h2 class="reveal">Signal becomes defensible action.</h2>
+      <p class="reveal">Evidence is not decoration. Provenance, disagreement, and human review stay part of the operating model.</p>
+    </div>
+  </div>
+  <div class="steps-wrap">
+    <div class="steps stagger">
+      <div class="step reveal"><b>01</b><strong>Evidence</strong><p>Start with permitted, traceable sources.</p></div>
+      <div class="step reveal"><b>02</b><strong>Context</strong><p>Resolve records around real entities.</p></div>
+      <div class="step reveal"><b>03</b><strong>Disagreement</strong><p>Expose conflicts, don't flatten them.</p></div>
+      <div class="step reveal"><b>04</b><strong>Human Review</strong><p>Keep judgment visible in decisions.</p></div>
+      <div class="step reveal"><b>05</b><strong>Action</strong><p>Preserve an auditable basis for what's next.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEADERSHIP ============ -->
+<section class="leadership" id="leadership">
+  <p class="lead-kicker"><i>Built by</i> <b>two.</b></p>
+  <div class="lead-roster stagger">
+    <div class="lead-row reveal">
+      <div><h3>Illya Knight</h3><p>Founder &amp; Managing Member &mdash; product direction across all three platforms and the federal/regulatory track.</p></div>
+      <span>Founder / Managing Member</span>
+    </div>
+    <div class="lead-row reveal">
+      <div><h3>Shea Johnson</h3><p>Co-Founder &mdash; coordinates grant and program work, including the USDA AMS SCMP project team.</p></div>
+      <span>Co-Founder</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT (PING US treatment) ============ -->
+<section class="contact" id="contact">
+  <div class="arcs left"><svg viewBox="0 0 120 220"><path d="M110 10 Q10 110 110 210"/><path d="M85 10 Q0 110 85 210"/><path d="M60 10 Q-20 110 60 210"/></svg></div>
+  <p class="gotproject">Got a mission?</p>
+  <h2 class="pingus">LET&rsquo;S TALK</h2>
+  <a class="contact-cta" href="mailto:hello@functionmedia.llc">Start a conversation &#8594;</a>
+  <div class="arcs right"><svg viewBox="0 0 120 220"><path d="M10 10 Q110 110 10 210"/><path d="M35 10 Q120 110 35 210"/><path d="M60 10 Q140 110 60 210"/></svg></div>
+</section>
+
+<footer>
+  <span>&copy; 2026 Function Media LLC</span>
+  <span class="flinks"><a href="#">VERISCOPE&trade;</a><a href="#">SAFEPLATE&trade;</a><a href="#">NORTHLINE&trade;</a></span>
+</footer>
+
+<script>
+/* ---- cursor: dot snaps instantly, ring eases behind it ---- */
+const ring = document.getElementById('curRing');
+const dot = document.getElementById('curDot');
+let mx=innerWidth/2, my=innerHeight/2, rx=mx, ry=my;
+window.addEventListener('mousemove', e=>{
+  mx = e.clientX; my = e.clientY;
+  dot.style.left = mx+'px'; dot.style.top = my+'px';
+});
+(function loop(){
+  rx += (mx-rx)*.18; ry += (my-ry)*.18;
+  ring.style.left = rx+'px'; ring.style.top = ry+'px';
+  requestAnimationFrame(loop);
+})();
+document.querySelectorAll('a,.lead-row,.device').forEach(el=>{
+  el.addEventListener('mouseenter', ()=> ring.classList.add('big'));
+  el.addEventListener('mouseleave', ()=> ring.classList.remove('big'));
+});
+
+/* ---- hero load-in ---- */
+const hero = document.querySelector('.hero');
+requestAnimationFrame(()=> setTimeout(()=> hero.classList.add('loaded'), 120));
+
+/* ---- hero parallax on scroll ---- */
+const heroImg = document.querySelector('.hero-img');
+window.addEventListener('scroll', ()=>{
+  const y = window.scrollY;
+  if(y < innerHeight){ heroImg.style.transform = `translateY(${y*0.18}px)`; }
+}, {passive:true});
+
+/* ---- generic scroll reveal ---- */
+const revealTargets = document.querySelectorAll('.reveal');
+const revealIO = new IntersectionObserver((entries)=>{
+  entries.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('in'); revealIO.unobserve(en.target); } });
+}, {threshold:.2});
+revealTargets.forEach(t=> revealIO.observe(t));
+
+/* ---- section-level .in triggers (index dots, contact) ---- */
+document.querySelectorAll('.index, .contact').forEach(sec=>{
+  const io = new IntersectionObserver(([e])=>{ if(e.isIntersecting){ sec.classList.add('in'); io.disconnect(); } }, {threshold:.25});
+  io.observe(sec);
+});
+
+/* ---- device cards ---- */
+document.querySelectorAll('.device').forEach(dv=>{
+  const io = new IntersectionObserver(([e])=>{ if(e.isIntersecting){ dv.classList.add('in'); io.disconnect(); } }, {threshold:.3});
+  io.observe(dv);
+});
+
+/* ---- count-up stats ---- */
+document.querySelectorAll('.stat b[data-count]').forEach(el=>{
+  const target = +el.dataset.count;
+  const io = new IntersectionObserver(([e])=>{
+    if(!e.isIntersecting) return;
+    io.disconnect();
+    let start=null;
+    const dur = 900;
+    function step(ts){
+      if(!start) start = ts;
+      const p = Math.min((ts-start)/dur, 1);
+      el.textContent = String(Math.round(p*target)).padStart(2,'0');
+      if(p<1) requestAnimationFrame(step);
+    }
+    
