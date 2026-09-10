@@ -52,7 +52,7 @@ section{position:relative;scroll-margin-top:90px}
 /* ---- HERO (real circuit photo) ---- */
 .hero{min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden}
 .hero-img{position:absolute;inset:0;overflow:hidden}
-.hero-img-inner{position:absolute;inset:-6%;background:url(/assets/function-media-hero.png) center/cover no-repeat;
+.hero-img-inner{position:absolute;inset:-6%;background:url(/assets/fm-function-media-chip.jpg) center/cover no-repeat;
   filter:saturate(1.15) brightness(1.05);animation:drift 22s ease-in-out infinite}
 @keyframes drift{
   0%{transform:scale(1.08) translate(0,0)}

@@ -13,7 +13,7 @@
     <div class="statusline"><span class="statuspill">Core environment built</span><span class="statuspill">Domain integrations in validation</span></div>
     <a class="enter-platform" href="https://veriscope-intelligence.netlify.app/">Enter VERISCOPE <span>&rarr;</span></a>
   </div>
-  <div class="chapter-visual reveal"><div class="tech-orbit"></div><div class="data-matrix"><span>SOURCE / 014</span><span>ENTITY / 042</span><span>CONFLICT / 003</span></div><div class="chapter-photo" style="background-image:url(/assets/veriscope-cyber-review-room.png)"></div><div class="interface-folio"><div class="folio-bar"><span>Evidence environment</span><span>Human authority preserved</span></div><div class="folio-signal" style="--accent:#3d6df2"><span style="--w:88%"></span><span style="--w:62%"></span><span style="--w:76%"></span></div></div></div>
+  <div class="chapter-visual reveal"><div class="tech-orbit"></div><div class="data-matrix"><span>SOURCE / 014</span><span>ENTITY / 042</span><span>CONFLICT / 003</span></div><div class="chapter-photo" style="background-image:url(/assets/fm-evidence-chip.jpg)"></div><div class="interface-folio"><div class="folio-bar"><span>Evidence environment</span><span>Human authority preserved</span></div><div class="folio-signal" style="--accent:#3d6df2"><span style="--w:88%"></span><span style="--w:62%"></span><span style="--w:76%"></span></div></div></div>
 </section>
 
 <section class="platform-chapter safeplate">
@@ -59,8 +59,8 @@
 <section class="editorial" id="research">
   <div class="editorial-head"><h2>From Function Media.</h2><a href="/knowledge-center/">Explore the Knowledge Center &rarr;</a></div>
   <div class="story-grid">
-    <a class="story reveal" href="/knowledge-center/a-case-is-not-a-row-in-a-database/"><div class="story-img" style="background-image:url(/knowledge-center/a-case-is-not-a-row-in-a-database/assets/function-media-evidence-aware-case-review-illya-knight.webp)"></div><small>FUNCTION MEDIA / EVIDENCE</small><h3>A Case Is Not a Row in a Database</h3></a>
-    <a class="story reveal" href="/knowledge-center/when-the-records-disagree/"><div class="story-img" style="background-image:url(/knowledge-center/when-the-records-disagree/assets/veriscope-records-disagree-hero.png)"></div><small>VERISCOPE / PROVENANCE</small><h3>When the Records Disagree</h3></a>
+    <a class="story reveal" href="/knowledge-center/a-case-is-not-a-row-in-a-database/"><div class="story-img" style="background-image:url(/assets/fm-evidence-chip.jpg)"></div><small>FUNCTION MEDIA / EVIDENCE</small><h3>A Case Is Not a Row in a Database</h3></a>
+    <a class="story reveal" href="/knowledge-center/when-the-records-disagree/"><div class="story-img" style="background-image:url(/assets/fm-function-media-chip.jpg)"></div><small>VERISCOPE / PROVENANCE</small><h3>When the Records Disagree</h3></a>
     <a class="story reveal" href="/knowledge-center/the-kitchen-is-the-last-mile/"><div class="story-img" style="background-image:url(/knowledge-center/the-kitchen-is-the-last-mile/assets/function-media-safeplate-household-recall-last-mile.webp)"></div><small>SAFEPLATE / FOOD SAFETY</small><h3>The Kitchen Is the Last Mile</h3></a>
     <a class="story reveal" href="/knowledge-center/the-board-vote-is-only-the-beginning/"><div class="story-img" style="background-image:url(/knowledge-center/the-board-vote-is-only-the-beginning/assets/function-media-northline-school-board-technology-lifecycle.webp)"></div><small>NORTHLINE / EDUCATION</small><h3>The Board Vote Is Only the Beginning</h3></a>
   </div>

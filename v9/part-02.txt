@@ -12,7 +12,7 @@
 .evidence{padding:0;border-top:1px solid var(--line)}
 .evidence-hero{position:relative;padding:9vw 4vw;overflow:hidden}
 .evidence-hero:before{content:"";position:absolute;inset:0;
-  background:url(/knowledge-center/taking-ideas-into-the-real-world/assets/ideas-into-reality-editorial.png) center/cover no-repeat;z-index:0}
+  background:url(/assets/fm-evidence-chip.jpg) center/cover no-repeat;z-index:0}
 .evidence-hero:after{content:"";position:absolute;inset:0;z-index:1;
   background:linear-gradient(90deg,rgba(0,0,0,.82) 0%,rgba(0,0,0,.2) 32%,rgba(0,0,0,.2) 66%,rgba(0,0,0,.85) 100%),
              linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,.1) 40%)}
