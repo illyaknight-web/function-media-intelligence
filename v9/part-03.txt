@@ -245,4 +245,4 @@
 </section>
 
 <!-- ============ DEVICE GALLERY ============ -->
-<sectio
+<section
