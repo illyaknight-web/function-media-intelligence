@@ -7,7 +7,7 @@
 <meta property="og:title" content="Function Media LLC | Intelligence Infrastructure for Consequential Missions">
 <meta property="og:description" content="Human-led intelligence infrastructure for consequential environments.">
 <meta property="og:url" content="https://function-media-intelligence.netlify.app/">
-<meta property="og:image" content="https://function-media-intelligence.netlify.app/assets/function-media-hero.png">
+<meta property="og:image" content="https://function-media-intelligence.netlify.app/assets/fm-function-media-chip.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -52,12 +52,12 @@ section{position:relative;scroll-margin-top:90px}
 /* ---- HERO (real circuit photo) ---- */
 .hero{min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden}
 .hero-img{position:absolute;inset:0;overflow:hidden}
-.hero-img-inner{position:absolute;inset:-6%;background:url(/assets/fm-function-media-chip.jpg) center/cover no-repeat;
-  filter:saturate(1.15) brightness(1.05);animation:drift 22s ease-in-out infinite}
+.hero-img-inner{position:absolute;inset:0;background:url(/assets/fm-function-media-chip.jpg) center/contain no-repeat;
+  background-color:#050505;filter:saturate(1.15) brightness(1.05);animation:drift 22s ease-in-out infinite}
 @keyframes drift{
-  0%{transform:scale(1.08) translate(0,0)}
-  50%{transform:scale(1.16) translate(-2.2%,-1.4%)}
-  100%{transform:scale(1.08) translate(0,0)}
+  0%{transform:translate(0,0)}
+  50%{transform:translate(-.8%,-.4%)}
+  100%{transform:translate(0,0)}
 }
 .hero-img:after{content:"";position:absolute;inset:0;
   background:linear-gradient(0deg,#000 6%,rgba(0,0,0,.35) 42%,rgba(0,0,0,.65) 100%)}
@@ -122,3 +122,4 @@ h1 i{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--dim)
 .devscreen p{margin:0;font:400 13px/1.5 var(--sans);color:var(--dim)}
 .devscreen.has-photo p{color:#d8d7d2}
 @media(max-width:860px)
+
