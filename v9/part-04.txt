@@ -1,4 +1,4 @@
-n class="portfolio-intro">
+ class="portfolio-intro">
   <div class="portfolio-intro-grid">
     <h2 class="reveal">One company.<br>Three mission environments.</h2>
     <p class="reveal">Function Media builds the evidence infrastructure underneath food safety, K&ndash;12 operations, and consequential mission intelligence. Each platform is distinct. The operating discipline is shared.</p>
