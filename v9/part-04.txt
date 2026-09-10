@@ -5,7 +5,7 @@ n class="portfolio-intro">
   </div>
 </section>
 
-<section class="platform-chapter">
+<section class="platform-chapter veriscope">
   <div class="chapter-copy reveal">
     <span class="chapter-no">01 / MISSION INTELLIGENCE</span><h2>VERISCOPE&trade;</h2>
     <p class="what">An evidence-centered environment for seeing what changed, what connects, and what requires human judgment.</p>
@@ -13,10 +13,10 @@ n class="portfolio-intro">
     <div class="statusline"><span class="statuspill">Core environment built</span><span class="statuspill">Domain integrations in validation</span></div>
     <a class="enter-platform" href="https://veriscope-intelligence.netlify.app/">Enter VERISCOPE <span>&rarr;</span></a>
   </div>
-  <div class="chapter-visual reveal"><div class="chapter-photo" style="background-image:url(/assets/veriscope-cyber-review-room.png)"></div><div class="interface-folio"><div class="folio-bar"><span>Evidence environment</span><span>Human authority preserved</span></div><div class="folio-signal" style="--accent:#3d6df2"><span style="--w:88%"></span><span style="--w:62%"></span><span style="--w:76%"></span></div></div></div>
+  <div class="chapter-visual reveal"><div class="tech-orbit"></div><div class="data-matrix"><span>SOURCE / 014</span><span>ENTITY / 042</span><span>CONFLICT / 003</span></div><div class="chapter-photo" style="background-image:url(/assets/veriscope-cyber-review-room.png)"></div><div class="interface-folio"><div class="folio-bar"><span>Evidence environment</span><span>Human authority preserved</span></div><div class="folio-signal" style="--accent:#3d6df2"><span style="--w:88%"></span><span style="--w:62%"></span><span style="--w:76%"></span></div></div></div>
 </section>
 
-<section class="platform-chapter">
+<section class="platform-chapter safeplate">
   <div class="chapter-copy reveal">
     <span class="chapter-no">02 / FOOD SAFETY</span><h2>SAFEPLATE&trade;</h2>
     <p class="what">Food Safety Intelligence Infrastructure built to turn fragmented risk signals into connected, evidence-backed intelligence.</p>
@@ -24,10 +24,10 @@ n class="portfolio-intro">
     <div class="statusline"><span class="statuspill">Public experience live</span><span class="statuspill">Advanced capabilities in validation</span></div>
     <a class="enter-platform" href="https://safeplate-intelligence.netlify.app/">Enter SAFEPLATE <span>&rarr;</span></a>
   </div>
-  <div class="chapter-visual reveal"><div class="chapter-photo" style="background-image:url(/knowledge-center/the-kitchen-is-the-last-mile/assets/function-media-safeplate-household-recall-last-mile.webp)"></div><div class="interface-folio"><div class="folio-bar"><span>Recall &amp; incident intelligence</span><span>Evidence before inference</span></div><div class="folio-signal" style="--accent:#8ed6b0"><span style="--w:82%"></span><span style="--w:71%"></span><span style="--w:91%"></span></div></div></div>
+  <div class="chapter-visual reveal"><div class="tech-orbit"></div><div class="evidence-rail"><span><b>01</b>SIGNAL</span><span><b>02</b>PRODUCT</span><span><b>03</b>PLACE</span><span><b>04</b>ACTION</span></div><div class="chapter-photo" style="background-image:url(/knowledge-center/the-kitchen-is-the-last-mile/assets/function-media-safeplate-household-recall-last-mile.webp)"></div><div class="interface-folio"><div class="folio-bar"><span>Recall &amp; incident intelligence</span><span>Evidence before inference</span></div><div class="folio-signal" style="--accent:#8ed6b0"><span style="--w:82%"></span><span style="--w:71%"></span><span style="--w:91%"></span></div></div></div>
 </section>
 
-<section class="platform-chapter">
+<section class="platform-chapter northline">
   <div class="chapter-copy reveal">
     <span class="chapter-no">03 / K&ndash;12 OPERATIONS</span><h2>NORTHLINE&trade;</h2>
     <p class="what">District operations intelligence that turns the school day into a coordinated, accountable operating picture.</p>
@@ -35,7 +35,7 @@ n class="portfolio-intro">
     <div class="statusline"><span class="statuspill">Role experiences built</span><span class="statuspill">Institutional deployment pending</span></div>
     <a class="enter-platform" href="https://northline-intelligence.netlify.app/">Enter NORTHLINE <span>&rarr;</span></a>
   </div>
-  <div class="chapter-visual reveal"><div class="chapter-photo" style="background-image:url(/knowledge-center/the-bell-is-not-the-beginning/assets/northline-educators-function-media-stamped-v4.jpg)"></div><div class="interface-folio"><div class="folio-bar"><span>Family &rarr; Teacher &rarr; Principal &rarr; District</span><span>Principal Command</span></div><div class="folio-signal" style="--accent:#d3a765"><span style="--w:76%"></span><span style="--w:86%"></span><span style="--w:67%"></span></div></div></div>
+  <div class="chapter-visual reveal"><div class="tech-orbit"></div><div class="role-rail"><span>FAMILY</span><i></i><span>TEACHER</span><i></i><span>PRINCIPAL</span><i></i><span>DISTRICT</span></div><div class="chapter-photo" style="background-image:url(/knowledge-center/the-bell-is-not-the-beginning/assets/northline-educators-function-media-stamped-v4.jpg)"></div><div class="interface-folio"><div class="folio-bar"><span>One connected operating record</span><span>Principal Command</span></div><div class="folio-signal" style="--accent:#d3a765"><span style="--w:76%"></span><span style="--w:86%"></span><span style="--w:67%"></span></div></div></div>
 </section>
 
 <section class="working" id="working">
