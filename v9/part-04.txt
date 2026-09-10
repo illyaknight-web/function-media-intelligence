@@ -1,70 +1,74 @@
-n class="gallery">
-  <div class="gallery-head">
-    <h2>Built to run in the field, not a pitch deck.</h2>
-    <p>Each platform ships as its own working environment &mdash; live data, real interfaces, evidence you can trace back to source.</p>
+ class="portfolio-intro">
+  <div class="portfolio-intro-grid">
+    <h2 class="reveal">One company.<br>Three mission environments.</h2>
+    <p class="reveal">Function Media builds the evidence infrastructure underneath food safety, K&ndash;12 operations, and consequential mission intelligence. Each platform is distinct. The operating discipline is shared.</p>
   </div>
-  <div class="devrow stagger">
-    <div class="device" style="color:#3d6df2">
-      <div class="devbar"><i></i><i></i><i></i></div>
-      <div class="devscreen has-photo">
-        <div class="devphoto" style="background-image:url(/assets/veriscope-cyber-review-room.png)"></div>
-        <div class="devtext">
-          <div class="devtag">VERISCOPE</div>
-          <h3>See everything.</h3>
-          <div class="devfoot"><p>Evidence-centered intelligence infrastructure.</p></div>
-        </div>
-      </div>
-    </div>
+</section>
 
-    <div class="device" style="color:#8ed6b0">
-      <div class="devbar"><i></i><i></i><i></i></div>
-      <div class="devscreen has-photo">
-        <div class="devphoto" style="background-image:url(/knowledge-center/the-kitchen-is-the-last-mile/assets/function-media-safeplate-household-recall-last-mile.webp)"></div>
-        <div class="devtext">
-          <div class="devtag">SAFEPLATE</div>
-          <h3>Early warning.</h3>
-          <div class="devfoot"><p>Recall, source, and distribution evidence.</p></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="device" style="color:#d3a765">
-      <div class="devbar"><i></i><i></i><i></i></div>
-      <div class="devscreen has-photo">
-        <div class="devphoto" style="background-image:url(/knowledge-center/the-bell-is-not-the-beginning/assets/northline-educators-function-media-stamped-v4.jpg)"></div>
-        <div class="devtext">
-          <div class="devtag">NORTHLINE</div>
-          <h3>School impact.</h3>
-          <div class="devfoot"><p>District operations, human decisions.</p></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="device" style="color:#b99cff">
-      <div class="devbar"><i></i><i></i><i></i></div>
-      <div class="devscreen has-photo">
-        <div class="devphoto" style="background-image:url(/knowledge-center/introducing-veriscope-cyber/assets/veriscope-cyber-review-room.png)"></div>
-        <div class="devtext">
-          <div class="devtag">VERISCOPE SUITE</div>
-          <h3>Defense. Cyber. Juris.</h3>
-          <div class="devfoot"><p>Specialized mission systems for defense, cyber, and justice.</p></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="device" style="color:#f4f3ee">
-      <div class="devbar"><i></i><i></i><i></i></div>
-      <div class="devscreen has-photo plain-photo">
-        <div class="devphoto" style="background-image:url(/knowledge-center/a-case-is-not-a-row-in-a-database/assets/function-media-evidence-aware-case-review-illya-knight.webp)"></div>
-      </div>
-    </div>
+<section class="platform-chapter veriscope">
+  <div class="chapter-copy reveal">
+    <span class="chapter-no">01 / MISSION INTELLIGENCE</span><h2>VERISCOPE&trade;</h2>
+    <p class="what">An evidence-centered environment for seeing what changed, what connects, and what requires human judgment.</p>
+    <p class="why">VERISCOPE preserves provenance, resolves entities across records, exposes disagreement, and organizes defensible findings for review. Its specialized environments include Defense, Cyber, and Juris.</p>
+    <div class="statusline"><span class="statuspill">Core environment built</span><span class="statuspill">Domain integrations in validation</span></div>
+    <a class="enter-platform" href="https://veriscope-intelligence.netlify.app/">Enter VERISCOPE <span>&rarr;</span></a>
   </div>
+  <div class="chapter-visual reveal"><div class="tech-orbit"></div><div class="data-matrix"><span>SOURCE / 014</span><span>ENTITY / 042</span><span>CONFLICT / 003</span></div><div class="chapter-photo" style="background-image:url(/assets/veriscope-cyber-review-room.png)"></div><div class="interface-folio"><div class="folio-bar"><span>Evidence environment</span><span>Human authority preserved</span></div><div class="folio-signal" style="--accent:#3d6df2"><span style="--w:88%"></span><span style="--w:62%"></span><span style="--w:76%"></span></div></div></div>
+</section>
 
+<section class="platform-chapter safeplate">
+  <div class="chapter-copy reveal">
+    <span class="chapter-no">02 / FOOD SAFETY</span><h2>SAFEPLATE&trade;</h2>
+    <p class="what">Food Safety Intelligence Infrastructure built to turn fragmented risk signals into connected, evidence-backed intelligence.</p>
+    <p class="why">SAFEPLATE connects recalls, incidents, products, facilities, suppliers, geography, school information, and household workflows so people can see the signal, connect the evidence, and act earlier.</p>
+    <div class="statusline"><span class="statuspill">Public experience live</span><span class="statuspill">Advanced capabilities in validation</span></div>
+    <a class="enter-platform" href="https://safeplate-intelligence.netlify.app/">Enter SAFEPLATE <span>&rarr;</span></a>
+  </div>
+  <div class="chapter-visual reveal"><div class="tech-orbit"></div><div class="evidence-rail"><span><b>01</b>SIGNAL</span><span><b>02</b>PRODUCT</span><span><b>03</b>PLACE</span><span><b>04</b>ACTION</span></div><div class="chapter-photo" style="background-image:url(/knowledge-center/the-kitchen-is-the-last-mile/assets/function-media-safeplate-household-recall-last-mile.webp)"></div><div class="interface-folio"><div class="folio-bar"><span>Recall &amp; incident intelligence</span><span>Evidence before inference</span></div><div class="folio-signal" style="--accent:#8ed6b0"><span style="--w:82%"></span><span style="--w:71%"></span><span style="--w:91%"></span></div></div></div>
+</section>
+
+<section class="platform-chapter northline">
+  <div class="chapter-copy reveal">
+    <span class="chapter-no">03 / K&ndash;12 OPERATIONS</span><h2>NORTHLINE&trade;</h2>
+    <p class="what">District operations intelligence that turns the school day into a coordinated, accountable operating picture.</p>
+    <p class="why">NORTHLINE connects the Family, Teacher, Principal, and District experiences around one operational record&mdash;helping schools see exceptions, handoffs, school-level food issues, and emerging patterns sooner.</p>
+    <div class="statusline"><span class="statuspill">Role experiences built</span><span class="statuspill">Institutional deployment pending</span></div>
+    <a class="enter-platform" href="https://northline-intelligence.netlify.app/">Enter NORTHLINE <span>&rarr;</span></a>
+  </div>
+  <div class="chapter-visual reveal"><div class="tech-orbit"></div><div class="role-rail"><span>FAMILY</span><i></i><span>TEACHER</span><i></i><span>PRINCIPAL</span><i></i><span>DISTRICT</span></div><div class="chapter-photo" style="background-image:url(/knowledge-center/the-bell-is-not-the-beginning/assets/northline-educators-function-media-stamped-v4.jpg)"></div><div class="interface-folio"><div class="folio-bar"><span>One connected operating record</span><span>Principal Command</span></div><div class="folio-signal" style="--accent:#d3a765"><span style="--w:76%"></span><span style="--w:86%"></span><span style="--w:67%"></span></div></div></div>
+</section>
+
+<section class="working" id="working">
+  <div class="working-head"><h2>See the intelligence working.</h2><p>These windows open the current public platform experiences. They are operating demonstrations&mdash;not claims of government adoption, certification, or production deployment.</p></div>
+  <div class="working-grid">
+    <article class="live-window reveal"><div class="live-window-head"><span>VERISCOPE / Public environment</span><i></i></div><iframe loading="lazy" title="Current VERISCOPE platform" src="https://veriscope-intelligence.netlify.app/"></iframe><div class="live-note">Evidence and mission intelligence &middot; Open the platform for the complete experience.</div></article>
+    <article class="live-window reveal"><div class="live-window-head"><span>SAFEPLATE / Current records</span><i></i></div><iframe loading="lazy" title="Current SAFEPLATE platform" src="https://safeplate-intelligence.netlify.app/"></iframe><div class="live-note">Food-safety intelligence &middot; Authoritative notices remain the source of official recall status.</div></article>
+    <article class="live-window reveal"><div class="live-window-head"><span>NORTHLINE / Principal Command</span><i></i></div><iframe loading="lazy" title="Current NORTHLINE platform" src="https://northline-intelligence.netlify.app/principal-command.html"></iframe><div class="live-note">K&ndash;12 operations &middot; Controlled demonstration; institutional deployment is pending.</div></article>
+  </div>
+</section>
+
+<section class="architecture" id="architecture">
+  <span class="chapter-no">THE FUNCTION MEDIA ARCHITECTURE</span><h2>Different missions. One evidence discipline.</h2>
+  <div class="arch-stack">
+    <div class="arch-row reveal"><b>PARENT COMPANY</b><strong>FUNCTION MEDIA LLC</strong></div>
+    <div class="arch-row reveal"><b>PLATFORMS</b><strong>VERISCOPE&trade; &middot; SAFEPLATE&trade; &middot; NORTHLINE&trade;</strong></div>
+    <div class="arch-row reveal"><b>SHARED METHOD</b><div class="arch-flow"><span>Evidence</span><i>&rarr;</i><span>Context</span><i>&rarr;</i><span>Entity Resolution</span><i>&rarr;</i><span>Human Review</span><i>&rarr;</i><span>Action</span></div></div>
+  </div>
+</section>
+
+<section class="editorial" id="research">
+  <div class="editorial-head"><h2>From Function Media.</h2><a href="/knowledge-center/">Explore the Knowledge Center &rarr;</a></div>
+  <div class="story-grid">
+    <a class="story reveal" href="/knowledge-center/a-case-is-not-a-row-in-a-database/"><div class="story-img" style="background-image:url(/knowledge-center/a-case-is-not-a-row-in-a-database/assets/function-media-evidence-aware-case-review-illya-knight.webp)"></div><small>FUNCTION MEDIA / EVIDENCE</small><h3>A Case Is Not a Row in a Database</h3></a>
+    <a class="story reveal" href="/knowledge-center/when-the-records-disagree/"><div class="story-img" style="background-image:url(/knowledge-center/when-the-records-disagree/assets/veriscope-records-disagree-hero.png)"></div><small>VERISCOPE / PROVENANCE</small><h3>When the Records Disagree</h3></a>
+    <a class="story reveal" href="/knowledge-center/the-kitchen-is-the-last-mile/"><div class="story-img" style="background-image:url(/knowledge-center/the-kitchen-is-the-last-mile/assets/function-media-safeplate-household-recall-last-mile.webp)"></div><small>SAFEPLATE / FOOD SAFETY</small><h3>The Kitchen Is the Last Mile</h3></a>
+    <a class="story reveal" href="/knowledge-center/the-board-vote-is-only-the-beginning/"><div class="story-img" style="background-image:url(/knowledge-center/the-board-vote-is-only-the-beginning/assets/function-media-northline-school-board-technology-lifecycle.webp)"></div><small>NORTHLINE / EDUCATION</small><h3>The Board Vote Is Only the Beginning</h3></a>
+  </div>
 </section>
 
 <!-- ============ STATS ============ -->
 <section class="stats stagger">
-  <div class="stat reveal"><b data-count="4">0</b><span>Mission platforms</span></div>
+  <div class="stat reveal"><b data-count="3">0</b><span>Mission platforms</span></div>
   <div class="stat reveal"><b data-count="2">0</b><span>Founding principals</span></div>
   <div class="stat reveal"><b data-count="1">0</b><span>Engineering discipline</span></div>
   <div class="stat reveal"><b>&infin;</b><span>Human authority preserved</span></div>
@@ -91,15 +95,16 @@ n class="gallery">
 
 <!-- ============ LEADERSHIP ============ -->
 <section class="leadership" id="leadership">
-  <p class="lead-kicker"><i>Built by</i> <b>two.</b></p>
+  <p class="lead-kicker"><i>Accountability has</i> <b>names.</b></p>
+  <p class="lead-intro">Function Media combines product direction, institutional operations, program development, design, and engineering accountability inside one founder-led company.</p>
   <div class="lead-roster stagger">
     <div class="lead-row reveal">
-      <div><h3>Illya Knight</h3><p>Founder &amp; Managing Member &mdash; product direction across all three platforms and the federal/regulatory track.</p></div>
+      <div><h3>Illya Knight</h3><p>Founder &amp; Managing Member &mdash; accountable for company strategy, product direction across all three platforms, and the federal and regulatory track.</p><a href="/illya-knight/">Founder profile &amp; research &rarr;</a></div>
       <span>Founder / Managing Member</span>
     </div>
     <div class="lead-row reveal">
-      <div><h3>Shea Johnson</h3><p>Co-Founder &mdash; coordinates grant and program work, including the USDA AMS SCMP project team.</p></div>
-      <span>Co-Founder</span>
+      <div><h3>Shea Johnson</h3><p>Co-Owner &mdash; supports leadership, grant coordination, program development, and institutional project work.</p></div>
+      <span>Leadership / Co-Owner</span>
     </div>
   </div>
 </section>
@@ -156,7 +161,7 @@ const revealIO = new IntersectionObserver((entries)=>{
 revealTargets.forEach(t=> revealIO.observe(t));
 
 /* ---- section-level .in triggers (index dots, contact) ---- */
-document.querySelectorAll('.index, .contact').forEach(sec=>{
+document.querySelectorAll('.index, .contact, .platform-chapter').forEach(sec=>{
   const io = new IntersectionObserver(([e])=>{ if(e.isIntersecting){ sec.classList.add('in'); io.disconnect(); } }, {threshold:.25});
   io.observe(sec);
 });
@@ -181,4 +186,3 @@ document.querySelectorAll('.stat b[data-count]').forEach(el=>{
       el.textContent = String(Math.round(p*target)).padStart(2,'0');
       if(p<1) requestAnimationFrame(step);
     }
-    

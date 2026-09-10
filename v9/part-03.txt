@@ -31,6 +31,90 @@
 
 .devscreen.plain-photo .devphoto:after{display:none}
 
+/* ---- V10 SURGICAL PORTFOLIO ELEVATION ---- */
+.portfolio-intro{background:var(--off);color:#0a0a0a;padding:9vw 4vw 6vw}
+.portfolio-intro-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:7vw;align-items:end}
+.portfolio-intro h2{margin:0;font-size:clamp(42px,7vw,108px);line-height:.9;letter-spacing:-.055em}
+.portfolio-intro p{margin:0;max-width:36ch;font-size:clamp(18px,2vw,27px);line-height:1.45;color:#565550}
+.platform-chapter{min-height:92vh;padding:8vw 4vw;display:grid;grid-template-columns:.72fr 1.28fr;gap:5vw;align-items:center;border-top:1px solid var(--line);overflow:hidden;position:relative}
+.platform-chapter:before{content:"";position:absolute;inset:0;opacity:.13;background-image:linear-gradient(rgba(255,255,255,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.12) 1px,transparent 1px);background-size:72px 72px;mask-image:linear-gradient(90deg,#000,transparent 75%)}
+.platform-chapter:nth-of-type(even){background:#060709}
+.platform-chapter.safeplate{grid-template-columns:1.1fr .9fr;background:var(--off);color:#0a0a0a}
+.platform-chapter.safeplate .chapter-copy{order:2}.platform-chapter.safeplate .chapter-visual{order:1}
+.platform-chapter.safeplate .what{color:#141414}.platform-chapter.safeplate .why{color:#5f5e59}.platform-chapter.safeplate .statuspill{border-color:rgba(0,0,0,.18);color:#494843}
+.platform-chapter.northline{grid-template-columns:.9fr 1.1fr;background:#090806}
+.chapter-copy{position:relative;z-index:2}
+.chapter-no{font:600 12px var(--mono);letter-spacing:.14em;color:var(--dim)}
+.chapter-copy h2{margin:20px 0 18px;font-size:clamp(48px,7vw,108px);line-height:.86;letter-spacing:-.055em}
+.chapter-copy .what{margin:0;font:500 clamp(18px,1.8vw,27px)/1.45 var(--sans);color:#efeee9;max-width:24ch}
+.chapter-copy .why{margin:20px 0 0;font:400 15px/1.65 var(--sans);color:var(--dim);max-width:43ch}
+.statusline{display:flex;gap:8px;flex-wrap:wrap;margin:26px 0}
+.statuspill{padding:7px 10px;border:1px solid var(--line);border-radius:99px;font:600 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:#c9c8c2}
+.enter-platform{display:inline-flex;align-items:center;gap:14px;margin-top:9px;font:700 14px var(--sans);border-bottom:1px solid currentColor;padding-bottom:6px}
+.chapter-visual{position:relative;min-height:68vh;overflow:hidden;border:1px solid var(--line);background:#0b0d10;box-shadow:0 40px 100px rgba(0,0,0,.4);isolation:isolate}
+.chapter-photo{position:absolute;inset:5%;background-size:contain;background-repeat:no-repeat;background-position:center;z-index:1}
+.chapter-visual:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 68% 35%,rgba(61,109,242,.2),transparent 34%),linear-gradient(135deg,#050608,#11151d);z-index:0}
+.chapter-visual:after{content:"";position:absolute;z-index:3;left:0;right:0;top:-8%;height:1px;background:linear-gradient(90deg,transparent,var(--accent,#5c7dff),transparent);box-shadow:0 0 22px var(--accent,#5c7dff);animation:scan 5s ease-in-out infinite}
+.safeplate .chapter-visual{--accent:#69d7a1;background:#d7d5ce;border-color:rgba(0,0,0,.16);box-shadow:18px 30px 0 #151515}
+.safeplate .chapter-visual:before{background:linear-gradient(135deg,#d5d2c8,#f7f5ee)}
+.northline .chapter-visual{--accent:#d3a765;clip-path:polygon(0 0,92% 0,100% 12%,100% 100%,0 100%)}
+@keyframes scan{0%,12%{top:-8%;opacity:0}20%{opacity:1}75%{opacity:.8}100%{top:108%;opacity:0}}
+.tech-orbit{position:absolute;z-index:2;width:240px;height:240px;border:1px solid rgba(255,255,255,.25);border-radius:50%;right:-90px;top:-80px;animation:orbitSpin 18s linear infinite}
+.tech-orbit:before,.tech-orbit:after{content:"";position:absolute;border-radius:50%;background:var(--accent,#5c7dff);box-shadow:0 0 18px var(--accent,#5c7dff)}
+.tech-orbit:before{width:8px;height:8px;left:20px;top:30px}.tech-orbit:after{width:4px;height:4px;right:8px;bottom:70px}
+@keyframes orbitSpin{to{transform:rotate(360deg)}}
+.data-matrix{position:absolute;z-index:4;left:3%;top:4%;display:grid;grid-template-columns:repeat(3,auto);gap:1px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.18)}
+.data-matrix span{background:rgba(4,6,10,.9);padding:9px 11px;font:600 8px var(--mono);letter-spacing:.1em;color:#c7d3ff}
+.evidence-rail{position:absolute;z-index:4;left:3%;right:3%;top:4%;display:grid;grid-template-columns:repeat(4,1fr);border:1px solid rgba(0,0,0,.22);background:rgba(244,243,238,.9)}
+.evidence-rail span{padding:12px 9px;border-right:1px solid rgba(0,0,0,.18);font:700 8px var(--mono);letter-spacing:.08em;color:#151515}.evidence-rail span:last-child{border:0}.evidence-rail b{display:block;color:#25805a;font-size:14px;margin-bottom:4px}
+.role-rail{position:absolute;z-index:4;left:4%;right:4%;top:4%;display:flex;align-items:center;justify-content:space-between;color:#f0d29b;font:600 8px var(--mono);letter-spacing:.1em}
+.role-rail i{height:1px;flex:1;margin:0 8px;background:linear-gradient(90deg,#d3a765,rgba(211,167,101,.2));position:relative;overflow:visible}.role-rail i:after{content:"";position:absolute;width:5px;height:5px;border-radius:50%;background:#fff;top:-2px;animation:travel 3.2s linear infinite}
+@keyframes travel{from{left:0}to{left:100%}}
+.interface-folio{position:absolute;z-index:4;left:4%;right:4%;bottom:4%;padding:18px;border:1px solid rgba(255,255,255,.24);background:rgba(4,5,7,.84);backdrop-filter:blur(14px)}
+.folio-bar{display:flex;justify-content:space-between;gap:16px;font:600 10px var(--mono);letter-spacing:.09em;text-transform:uppercase;color:#c7c6c1}
+.folio-signal{display:grid;grid-template-columns:1.3fr .7fr .7fr;gap:9px;margin-top:15px}
+.folio-signal span{height:5px;border-radius:8px;background:rgba(255,255,255,.16);overflow:hidden}
+.folio-signal span:after{content:"";display:block;height:100%;width:var(--w,70%);background:var(--accent,#3d6df2);animation:signalMove 3.4s ease-in-out infinite alternate}
+@keyframes signalMove{to{width:calc(var(--w,70%) - 18%)}}
+.working{background:var(--off);color:#0a0a0a;padding:9vw 4vw}
+.working-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:4vw}
+.working h2{margin:0;font-size:clamp(42px,6vw,88px);line-height:.92;letter-spacing:-.045em;max-width:9ch}
+.working-head p{margin:0;color:#5d5c57;max-width:39ch;line-height:1.6}
+.working-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.live-window{background:#08090b;color:#fff;border-radius:18px;overflow:hidden;border:1px solid rgba(0,0,0,.18);min-width:0}
+.live-window-head{padding:14px 16px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);font:600 10px var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.live-window-head i{width:7px;height:7px;background:#57d699;border-radius:50%;box-shadow:0 0 0 5px rgba(87,214,153,.12)}
+.live-window iframe{display:block;width:142%;height:470px;border:0;transform:scale(.705);transform-origin:top left;margin-right:-42%;margin-bottom:-139px;background:#050608}
+.live-note{padding:13px 16px;color:var(--dim);font:400 11px/1.45 var(--sans);border-top:1px solid var(--line)}
+.architecture{padding:9vw 4vw;border-top:1px solid var(--line);background:#050608;color:#fff}
+.architecture h2{font-size:clamp(42px,6vw,86px);letter-spacing:-.045em;margin:0 0 5vw;max-width:10ch;line-height:.94}
+.arch-stack{border-top:1px solid var(--line)}
+.arch-row{display:grid;grid-template-columns:180px 1fr;gap:4vw;padding:25px 0;border-bottom:1px solid var(--line);align-items:center}
+.arch-row b{font:600 11px var(--mono);letter-spacing:.12em;color:var(--blue)}
+.arch-row strong{font-size:clamp(24px,3.2vw,48px);letter-spacing:-.03em}
+.arch-flow{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:clamp(18px,2vw,30px);font-weight:700}
+.arch-flow i{font-style:normal;color:var(--blue)}
+.editorial{background:#08090b;padding:9vw 4vw;border-top:1px solid var(--line);color:#fff}
+.editorial-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:4vw}
+.editorial h2{font-size:clamp(42px,6vw,86px);letter-spacing:-.045em;margin:0;line-height:.94}
+.editorial-head a{font:700 13px var(--sans);border-bottom:1px solid;padding-bottom:5px}
+.story-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.story{border-top:1px solid var(--line);padding-top:14px}
+.story-img{aspect-ratio:4/3;background-size:contain;background-repeat:no-repeat;background-position:center;margin-bottom:18px;filter:saturate(.92);background-color:#111}
+.story small{font:600 10px var(--mono);letter-spacing:.11em;color:var(--dim)}
+.story h3{font-size:20px;line-height:1.18;letter-spacing:-.02em;margin:12px 0 0}
+.leadership .lead-intro{max-width:64ch;color:var(--dim);font:400 17px/1.6 var(--sans);margin:24px 0 0}
+.lead-row a{font:600 12px var(--sans);border-bottom:1px solid currentColor;padding-bottom:4px}
+@media(max-width:900px){
+  *{cursor:auto}.cur-ring,.cur-dot{display:none!important}
+  .portfolio-intro-grid,.platform-chapter,.platform-chapter.safeplate,.platform-chapter.northline{grid-template-columns:1fr}.platform-chapter{padding:70px 20px;min-height:0}.platform-chapter.safeplate .chapter-copy,.platform-chapter.safeplate .chapter-visual{order:initial}.chapter-visual{min-height:58vh}
+  .chapter-photo{inset:4%;bottom:18%;background-size:contain}.chapter-copy h2{font-size:clamp(52px,15vw,82px)}
+  .working{padding:72px 20px}.working-head,.editorial-head{align-items:flex-start;flex-direction:column}.working-grid{grid-template-columns:1fr}.live-window iframe{height:520px;margin-bottom:-156px}
+  .architecture,.editorial{padding:72px 20px}.arch-row{grid-template-columns:1fr;gap:14px}.story-grid{grid-template-columns:1fr 1fr}.portfolio-intro{padding:72px 20px}
+  .reveal{opacity:1;transform:none}.nav{background:rgba(0,0,0,.88)}.navcta{padding:10px 15px}.logo{font-size:17px}
+}
+@media(max-width:560px){.story-grid{grid-template-columns:1fr}.chapter-visual{min-height:480px}.folio-signal{grid-template-columns:1fr}.live-window iframe{width:180%;transform:scale(.555);margin-right:-80%;margin-bottom:-208px}.tech-orbit{width:160px;height:160px}.interface-folio{padding:14px}.folio-bar{font-size:8px}.architecture h2{color:#fff}.arch-row strong,.arch-flow{color:#f4f3ee}.leadership{color:#fff}.lead-row h3{color:#fff}.lead-row p,.lead-intro{color:#a8a7a2}.evidence-head h2{color:#fff}.evidence-head p{color:#f4f3ee}.data-matrix{grid-template-columns:repeat(3,1fr);right:3%}.data-matrix span{padding:7px 5px}.evidence-rail span{font-size:6px;padding:8px 4px}.role-rail{font-size:6px}}
+
 </style></head>
 <body>
 
@@ -42,7 +126,8 @@
   <nav class="navlinks">
     <a href="#about">About</a>
     <a href="#platforms">Platforms</a>
-    <a href="#evidence">Approach</a>
+    <a href="#working">Portfolio</a>
+    <a href="#research">Research</a>
     <a href="#leadership">Leadership</a>
   </nav>
   <a class="navcta" href="#contact">&#8599; Get in touch</a>
@@ -66,16 +151,16 @@
       <h2 class="reveal">What Function Media does.</h2>
     </div>
     <div>
-      <p class="about-lede reveal">We're a two-person GovTech/AI and marketing company building infrastructure for institutions that can't afford to guess.</p>
+      <p class="about-lede reveal">Function Media is a founder-led applied intelligence company building infrastructure for institutions that cannot afford to guess.</p>
       <div class="about-body">
-        <p class="reveal">Function Media designs, builds, and operates evidence-aware platforms for mission-critical domains &mdash; food safety, K&ndash;12 district operations, and complex evidence environments. We don't hand a strategy deck to a dev shop and hope it survives contact with production: the same two people who scope a platform ship it, run it, and answer for it.</p>
-        <p class="reveal">We're also a working marketing and creative studio &mdash; brand systems, campaign production, and editorial-grade websites for clients outside the GovTech portfolio. The same discipline runs through both sides of the business: nothing ships until it's been thought through end to end.</p>
+        <p class="reveal">Function Media designs and develops evidence-aware platforms for mission-critical domains &mdash; food safety, K&ndash;12 district operations, and complex evidence environments. Product direction, institutional operations, design, engineering coordination, and accountability remain connected from concept through validation.</p>
+        <p class="reveal">The company also brings a working marketing and creative practice to brand systems, campaign production, and editorial-grade digital experiences. The same discipline runs through both sides of the business: understand the real operating environment, preserve the evidence, and build for the decision that follows.</p>
         <p class="reveal">Every system we build follows one rule regardless of domain: preserve where evidence came from, surface disagreement instead of smoothing it over, and keep a human in the loop for anything consequential.</p>
       </div>
       <div class="about-facts stagger">
         <div class="about-fact reveal"><b>Where</b><span>New York</span></div>
         <div class="about-fact reveal"><b>What</b><span>Evidence-aware infrastructure and marketing/creative work &mdash; food safety, education, mission-critical evidence environments, and brand campaigns</span></div>
-        <div class="about-fact reveal"><b>How</b><span>Design, engineering, and operations under one roof &mdash; two founders, no outsourcing</span></div>
+        <div class="about-fact reveal"><b>How</b><span>Founder-led product direction with integrated design, engineering coordination, validation, and operations</span></div>
       </div>
     </div>
   </div>
@@ -151,14 +236,13 @@
     <circle cx="1346" cy="472" r="5"/>
     <circle cx="1347" cy="602" r="3.5"/>
   </svg></div>
-  <p class="index-head">Not a product grid. Four platforms, four missions, one operating discipline underneath.</p>
+  <p class="index-head">Three distinct mission platforms. One accountable parent company and one evidence discipline underneath.</p>
   <div class="index-list stagger">
     <a class="index-row reveal" href="https://veriscope-intelligence.netlify.app/"><span>VERISCOPE <small>&mdash; evidence &amp; mission intelligence</small></span><span class="tag">01</span></a>
     <a class="index-row reveal" href="https://safeplate-intelligence.netlify.app/"><span>SAFEPLATE <small>&mdash; food safety intelligence</small></span><span class="tag">02</span></a>
     <a class="index-row reveal" href="https://northline-intelligence.netlify.app/"><span>NORTHLINE <small>&mdash; K&ndash;12 operations intelligence</small></span><span class="tag">03</span></a>
-    <a class="index-row reveal" href="#"><span>Function Media <small>&mdash; corporate &amp; SBIR</small></span><span class="tag">04</span></a>
   </div>
 </section>
 
 <!-- ============ DEVICE GALLERY ============ -->
-<sectio
+<section
