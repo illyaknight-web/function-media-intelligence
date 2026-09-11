@@ -1,6 +1,6 @@
-# Function Media LLC — Public Research & Publications
+# Function Media LLC Public Research & Publications
 
-Function Media LLC publishes public research and editorial analysis on operational intelligence, evidence-centered systems, food safety, traceability, cybersecurity, and K–12 district operations.
+Function Media LLC publishes public research and editorial analysis on operational intelligence, evidence centered systems, food safety, traceability, cybersecurity, and K 12 district operations.
 
 ## Function Media LLC
 - [The Board Vote Is Only the Beginning](https://function-media-intelligence.netlify.app/knowledge-center/the-board-vote-is-only-the-beginning/)

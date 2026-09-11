@@ -1,11 +1,11 @@
 # Function Media LLC
 
-Function Media LLC is a systems-engineering company developing evidence-centered intelligence infrastructure for complex public missions.
+Function Media LLC is a systems engineering company developing evidence centered intelligence infrastructure for complex public missions.
 
 ## Leadership
 
-- [**Illya Knight**](https://function-media-intelligence.netlify.app/illya-knight/) — Founder and Managing Member
-- **Shea Johnson** — Co-Owner
+- [**Illya Knight**](https://function-media-intelligence.netlify.app/illya-knight/) Founder and Managing Member
+- **Shea Johnson** Co Owner
 
 ## Official technology portfolio
 
@@ -13,13 +13,13 @@ Function Media LLC is a systems-engineering company developing evidence-centered
 
 Function Media LLC develops the following technology platforms:
 
-- [**VERISCOPE™ by Function Media LLC**](https://veriscope-intelligence.netlify.app/about-veriscope.html) — regulatory, operational, and mission-oriented intelligence infrastructure.
-- [**SAFEPLATE™ by Function Media LLC**](https://safeplate-intelligence.netlify.app/about-safeplate.html) — food-safety intelligence infrastructure.
-- [**NORTHLINE™ by Function Media LLC**](https://northline-intelligence.netlify.app/) — K–12 district-operations intelligence.
+- [**VERISCOPE™ by Function Media LLC**](https://veriscope-intelligence.netlify.app/about-veriscope.html) regulatory, operational, and mission oriented intelligence infrastructure.
+- [**SAFEPLATE™ by Function Media LLC**](https://safeplate-intelligence.netlify.app/about-safeplate.html) food safety intelligence infrastructure.
+- [**NORTHLINE™ by Function Media LLC**](https://northline-intelligence.netlify.app/) K 12 district operations intelligence.
 
 Illya Knight is Founder and Managing Member of Function Media LLC. Function Media LLC is the source company behind VERISCOPE™, SAFEPLATE™, and NORTHLINE™.
 
-Each platform addresses a distinct mission environment while sharing Function Media's disciplined approach to multi-source information, provenance, responsible analysis, authorized access, human review, and accountable decision support.
+Each platform addresses a distinct mission environment while sharing Function Media's disciplined approach to multi source information, provenance, responsible analysis, authorized access, human review, and accountable decision support.
 
 ## VERISCOPE™ research
 
