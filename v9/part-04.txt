@@ -186,3 +186,25 @@ document.querySelectorAll('.stat b[data-count]').forEach(el=>{
       el.textContent = String(Math.round(p*target)).padStart(2,'0');
       if(p<1) requestAnimationFrame(step);
     }
+
+<!-- CONTRACT-READY CAPABILITY LAYER -->
+<section class="about capability-layer" id="capability-layer">
+  <div class="about-grid">
+    <div>
+      <p class="about-kicker">THE FUNCTION MEDIA FOUNDATION</p>
+      <h2>Three platforms.<br>One disciplined operating foundation.</h2>
+      <p class="about-lede">Each product is different by design. The underlying standards make each one adaptable to serious public and institutional work.</p>
+    </div>
+    <div class="about-body">
+      <p>Function Media is building reusable capability across identity, evidence, workflow, interoperability, security, accessibility, and accountable delivery. That foundation lets VERISCOPE, SAFEPLATE, and NORTHLINE evolve for different missions without becoming the same product.</p>
+      <div class="about-facts">
+        <div class="about-fact"><b>01 / EVIDENCE</b><span>Provenance, uncertainty, contradictions, review status, and decision lineage remain visible.</span></div>
+        <div class="about-fact"><b>02 / WORKFLOW</b><span>Intake, review, approval, escalation, exception handling, and closure can be configured by mission.</span></div>
+        <div class="about-fact"><b>03 / TRUST</b><span>Identity, permissions, audit history, privacy controls, secure development, and incident response are designed into the operating model.</span></div>
+        <div class="about-fact"><b>04 / CONNECTIVITY</b><span>Versioned APIs, connector health, data mapping, and controlled exports keep each platform interoperable.</span></div>
+        <div class="about-fact"><b>05 / ACCESS</b><span>Responsive, accessible, and mobile-safe experiences are treated as delivery requirements, not decoration.</span></div>
+        <div class="about-fact"><b>06 / DELIVERY</b><span>Implementation plans, training, support, release discipline, and measurable evidence make the technology operable after launch.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
