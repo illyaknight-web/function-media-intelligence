@@ -371,7 +371,28 @@ footer .flinks{display:flex;gap:24px}
 }
 @media(max-width:560px){.story-grid{grid-template-columns:1fr}.chapter-visual{min-height:480px}.folio-signal{grid-template-columns:1fr}.live-window iframe{width:180%;transform:scale(.555);margin-right:-80%;margin-bottom:-208px}.tech-orbit{width:160px;height:160px}.interface-folio{padding:14px}.folio-bar{font-size:8px}.architecture h2{color:#fff}.arch-row strong,.arch-flow{color:#f4f3ee}.leadership{color:#fff}.lead-row h3{color:#fff}.lead-row p,.lead-intro{color:#a8a7a2}.evidence-head h2{color:#fff}.evidence-head p{color:#f4f3ee}.data-matrix{grid-template-columns:repeat(3,1fr);right:3%}.data-matrix span{padding:7px 5px}.evidence-rail span{font-size:6px;padding:8px 4px}.role-rail{font-size:6px}}
 
-</style></head>
+
+/* ===== FUNCTION MEDIA / EDITORIAL INSTITUTION 2026 ===== */
+:root{--paper:#f3f1eb;--ink:#0a0a0a;--hair:rgba(10,10,10,.16)}
+.nav{height:72px;background:rgba(0,0,0,.82);border-bottom:1px solid rgba(255,255,255,.18)}
+.logo{font-family:var(--serif);font-size:24px;font-weight:400;letter-spacing:.02em}.logo .ring{display:none}
+.navlinks{font-size:11px;letter-spacing:.12em;text-transform:uppercase}.navcta{border-radius:0;text-transform:uppercase;letter-spacing:.1em;font-size:10px}
+.hero{min-height:96svh}.hero-img-inner{background-position:center 48%;background-size:cover;filter:saturate(.9) contrast(1.08) brightness(.82);transform:scale(1.04)}
+.hero-img:after{background:linear-gradient(90deg,rgba(0,0,0,.9) 0%,rgba(0,0,0,.46) 48%,rgba(0,0,0,.14) 74%),linear-gradient(0deg,#000 0%,transparent 45%,rgba(0,0,0,.42) 100%)}
+.herotop{padding-top:130px}.eyebrow{text-transform:uppercase;letter-spacing:.16em;color:#d6d3ca;font-size:10px}
+.herobottom{padding-bottom:7vw;align-items:flex-end}h1{font-family:var(--serif);font-weight:400;font-size:clamp(58px,8.2vw,132px);line-height:.88;letter-spacing:-.045em;max-width:8.6ch}
+h1 i,h1 b{font:inherit;color:#fff}h1 b{font-style:normal}.hero-cta{border-radius:0;width:auto;height:auto;padding:13px 16px;text-transform:uppercase;letter-spacing:.12em;font-size:9px;animation:none!important}
+.about{background:var(--paper);color:var(--ink);padding:9vw 4vw}.about-grid{grid-template-columns:.72fr 1.28fr}.about-kicker{color:#77736b;text-transform:uppercase;letter-spacing:.16em;font-size:10px}.about h2{font-family:var(--serif);font-weight:400;font-size:clamp(44px,6.3vw,94px);line-height:.93;letter-spacing:-.045em;max-width:8ch}.about-lede{font-family:var(--serif);font-size:clamp(24px,2.7vw,42px);line-height:1.18;color:#171717;max-width:24ch}.about-body p{color:#5e5a54}.about-facts{border-color:var(--hair)}.about-fact{border-color:var(--hair)}.about-fact b{color:#111}.about-fact span{color:#4d4943}
+.sigwrap{background:var(--paper);border-color:var(--hair)}.sigtrack span{color:#68645d}.sigtrack em{background:#111}
+.index{padding-top:6vw}.dots{display:none}.index-head{font-family:var(--serif);font-size:clamp(28px,3vw,44px);line-height:1.15;max-width:26ch;color:#171717}.index-row{font-family:var(--serif);font-weight:400}.index-row small,.index-row .tag{font-family:var(--sans)}
+.portfolio-intro{padding-top:8vw}.portfolio-intro h2{font-family:var(--serif);font-weight:400;letter-spacing:-.045em}.portfolio-intro p{font-family:var(--serif);font-size:clamp(22px,2.3vw,34px);line-height:1.3;color:#34312d}
+.platform-chapter{min-height:78vh}.chapter-copy h2{font-family:var(--serif);font-weight:400}.chapter-visual{box-shadow:none}.safeplate .chapter-visual{box-shadow:14px 14px 0 #151515}
+.working{background:var(--paper)}.working h2,.architecture h2,.editorial h2{font-family:var(--serif);font-weight:400}
+.editorial{background:var(--paper);color:var(--ink);border-color:var(--hair)}.editorial .story{border-color:var(--hair)}.editorial small{color:#77736b}.editorial-head a{color:#111}
+.leadership{background:var(--paper);color:var(--ink);border-color:var(--hair)}.lead-kicker{color:#77736b}.lead-kicker b{color:#111;font-family:var(--serif);font-weight:400}.lead-roster,.lead-row{border-color:var(--hair)}.lead-row h3{font-family:var(--serif);font-weight:400;color:#111}.lead-row p,.leadership .lead-intro{color:#625e57}.lead-row span{color:#77736b}
+.contact{padding:9vw 4vw;background:#050505}.pingus{font-family:var(--serif);font-weight:400;letter-spacing:-.045em}
+@media(max-width:900px){.hero{min-height:88svh}.hero-img-inner{background-position:58% center}.herobottom{padding:0 20px 54px}.herotop{padding:100px 20px 0}.about{padding:72px 20px}.about h2{max-width:12ch}.index{padding:64px 20px}.leadership{background:var(--paper);color:var(--ink)}.lead-row h3{color:#111}.lead-row p,.lead-intro{color:#625e57}}
+\n</style></head>
 <body>
 
 <div class="cur-ring" id="curRing"></div>
@@ -392,10 +413,10 @@ footer .flinks{display:flex;gap:24px}
 <!-- ============ HERO ============ -->
 <section class="hero">
   <div class="hero-img"><div class="hero-img-inner"></div></div>
-  <div class="herotop"><div class="eyebrow">Function Media LLC &mdash; Evidence-Aware Systems</div></div>
+  <div class="herotop"><div class="eyebrow">Function Media LLC &mdash; Independent Technology Company &middot; New York</div></div>
   <div class="herobottom">
-    <h1><span class="hero-line"><span><i>Evidence</i></span></span><span class="hero-line"><span><b>Infrastructure.</b></span></span></h1>
-    <div class="hero-cta">View<br>Platforms<br>&darr;</div>
+    <h1><span class="hero-line"><span>Intelligence</span></span><span class="hero-line"><span>built for the</span></span><span class="hero-line"><span>real world.</span></span></h1>
+    <div class="hero-cta">Explore<br>Platforms<br>&darr;</div>
   </div>
 </section>
 
@@ -404,10 +425,10 @@ footer .flinks{display:flex;gap:24px}
   <div class="about-grid">
     <div>
       <p class="about-kicker reveal">Who we are</p>
-      <h2 class="reveal">What Function Media does.</h2>
+      <h2 class="reveal">Technology for complex environments.</h2>
     </div>
     <div>
-      <p class="about-lede reveal">Function Media is a founder-led applied intelligence company building infrastructure for institutions that cannot afford to guess.</p>
+      <p class="about-lede reveal">Function Media builds technology for complex operational environments where information is fragmented, decisions are consequential, and visibility matters.</p>
       <div class="about-body">
         <p class="reveal">Function Media designs and develops evidence-aware platforms for mission-critical domains &mdash; food safety, K&ndash;12 district operations, and complex evidence environments. Product direction, institutional operations, design, engineering coordination, and accountability remain connected from concept through validation.</p>
         <p class="reveal">The company also brings a working marketing and creative practice to brand systems, campaign production, and editorial-grade digital experiences. The same discipline runs through both sides of the business: understand the real operating environment, preserve the evidence, and build for the decision that follows.</p>
